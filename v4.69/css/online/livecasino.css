@@ -1,0 +1,125 @@
+
+div.casino-lobby-livecasino {
+    padding: 20px 50px;
+    min-height: 600px;
+    margin: 0px auto;
+    display: table;
+}
+
+div.casino-lobby-livecasino div.livecasino-game {
+    position: relative;
+    width: 46%;
+    height: 300px;
+    left: 25%;
+    margin: 6px 12px;
+    background: #212121;
+    border: 1px solid #484848;
+    padding: 4px 12px;
+    cursor: pointer;
+    display: flex;              /* establish flex container */
+    flex-direction: column;     /* stack flex items vertically */
+    justify-content: center;    /* center items vertically, in this case */
+    align-items: center;        /* center items horizontally, in this case */
+}
+
+.button-livecasino-play-now {
+    cursor: pointer;
+    cursor: hand;
+    position: relative;
+    display: inline-block;
+    background: #red;
+    margin: 20px;
+    width: 120px;
+    text-align: center;
+    line-height: 20px;
+    font: bold 18px/30px "Tahoma", sans-serif;
+    border: 5px solid #fff;
+    border-radius: 15px;
+    background: linear-gradient(180deg, rgba(255, 102, 102, 1) 0%, rgba(255, 0, 0, 1) 40%, rgba(255, 0, 0, 1) 70%, rgba(191, 0, 0, 1) 100%);
+    color: #fff;
+    box-shadow: 0px 3px 10px #000;
+        }
+    .button-livecasino-pay-now:hover {
+        transform: scale(1.01);
+        background: linear-gradient(180deg, rgba(255, 102, 102, 1) 0%, rgba(255, 0, 0, 1) 70%, rgba(160, 0, 0, 1) 100%);
+        box-shadow: 0px 5px 10px #000;
+    }
+    .button-livecasino-play-now:active {
+        transform: scale(1);
+    }
+    
+.row-livecasino {
+    box-sizing: border-box;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex: 0 1 auto;
+    -webkit-box-flex: 0;
+    flex: 0 1 auto;
+    -ms-flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -1rem;
+    margin-left: -1rem;
+    padding: 2.2rem;
+}
+
+.playnow-livecasino{
+    background-image:url("../../images/livecasino/playnow.png");
+    width: 300px;
+    height: 60px;
+    margin: 30px auto 0;
+    cursor:hand;
+    cursor:pointer;
+}
+
+@media only screen and (min-width: 75em)
+{
+col-lg-offset-1-livecasino {
+    margin: 4px;       /*or 0.3%*/
+}
+}
+
+@media only screen and (min-width: 75em)
+{
+col-lg-4-livecasino {
+    -ms-flex-preferred-size: 33.333%;
+    flex-basis: 50%;
+    max-width: 49%;
+}
+}
+
+@media only screen and (min-width: 62em)
+{
+col-md-offset-1-livecasino {
+    margin: 0;
+}
+}
+
+
+div.livecasino-game-big-img {
+    width: 640px;
+    height: 400px;
+    background: center center no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+    cursor:hand;
+    cursor:pointer;
+}
+
+@media only screen and (min-width: 75em)
+{
+.col-lg-livecasino, .col-lg-1-livecasino, .col-lg-2-livecasino, .col-lg-3-livecasino, .col-lg-4-livecasino, .col-lg-5-livecasino, .col-lg-6-livecasino, 
+.col-lg-7-livecasino, .col-lg-8-livecasino, .col-lg-9-livecasino, .col-lg-10-livecasino, .col-lg-11-livecasino, .col-lg-12-livecasino {
+    box-sizing: border-box;
+    -ms-flex: 0 0 auto;
+    -webkit-box-flex: 0;
+    flex: 0 0 auto;
+    padding-right: 0;
+    padding-left: 0;
+    margin:auto;
+}
+}

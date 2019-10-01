@@ -1,0 +1,105 @@
+div.support-chat-window {
+    position: fixed;
+    right: 4px;
+    bottom: 4px;
+    width: 450px;
+    height: 450px;
+    background-color: #fff;
+    border: 4px solid #0066CC;
+    border-radius: 3px;
+    z-index: 99;
+}
+div.support-chat-window div.support-chat-header {
+    background-color: #0066CC;
+    height: 24px;
+    font: bold 13px/20px Verdana;
+    text-indent: 10px;
+    color: #fff;
+}
+div.support-chat-window div.support-chat-header div.support-chat-close {
+    position: absolute;
+    width: 25px;
+    height: 16px;
+    top: 2px;
+    right: 2px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #444;
+    background: #f00 linear-gradient(#f44, #f00);
+    cursor: pointer;
+    color: #fff;
+    font: bold 15px/10px Verdana;
+    text-shadow:
+    -1px -1px 0 #888,  
+     1px -1px 0 #888,
+     -1px 1px 0 #888,
+      1px 1px 0 #888;
+    text-indent: 0;
+    text-align: center;
+    padding: 0;
+}
+div.support-chat-window div.support-chat-screen {
+    position: absolute;
+    box-sizing: border-box;
+    width: 98%;
+    height: 81%;
+    top: 6%;
+    left: 1%;
+    border: 1px solid #666;
+    font: 12px/14px Verdana;
+    overflow: auto;
+}
+div.support-chat-window div.support-chat-input {
+    position: absolute;
+    box-sizing: border-box;
+    width: 98%;
+    height: 10%;
+    bottom: 1%;
+    left: 1%;
+}
+div.support-chat-window div.support-chat-input textarea.support-chat-type {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 100%;
+    box-sizing: border-box;
+    border: 1px solid #888;
+    padding: 4px;
+}
+div.support-chat-window div.support-chat-input input.support-chat-send {
+    position: absolute;
+    width: 18%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #0066CC;
+    color: #fff;
+    text-align: center;
+    line-height: normal;
+    padding: 0;
+}
+div.support-chat-window div.support-chat-screen div.support-chat-line {
+    padding: 2px 4px;
+    color: #000;
+}
+div.support-chat-window div.support-chat-screen div.support-chat-line .chat-line-system-text {
+    color: #444;
+    font-style: italic;
+    font-family: Arial;
+    font-size: 11px;
+}
+div.support-chat-window div.support-chat-screen div.support-chat-line.pending {
+    color: #888;
+    font-style: italic;
+}
+div.support-chat-window div.support-chat-screen div.support-chat-line span.chat-line-user {
+    font-weight: bold;
+}
+
+
+xbody.masked > div.mask {
+    z-index: 1000 !important;
+}

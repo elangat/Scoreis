@@ -1,0 +1,297 @@
+div.casino-lobby-xpg {
+    padding: 20px 50px;
+    min-height: 600px;
+}
+div.casino-lobby-xpg div.casino-live-game {
+    position: relative;
+    float: left;
+    width: 380px;
+    margin: 10px;
+    height: 250px;
+    color: #fff;
+    background-color: #212121;
+    border-radius: 5px;
+    border: 1px solid #484848;
+}
+div.casino-lobby-xpg div.casino-live-game div.header {
+    height: 20px;
+    background: #000 linear-gradient(#363636, #000000);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin: 1px;
+    color: #fff;
+    text-indent: 12px;
+    font: 700 12px/20px Tahoma;
+}
+div.casino-lobby-xpg div.casino-live-game div.image {
+    position: relative;
+    width: 100%;
+    height: 190px;
+    margin: 0 auto;
+    background: #000 center center no-repeat;
+    background-size: cover;
+}
+
+div.slot-game-big-img {
+    width: 624px;
+    height: 458px;
+    background: center center no-repeat;
+    background-size: contain;
+}
+
+div.casino-lobby-xpg div.casino-live-roulette div.image {
+    background-image: url('../../images/online/b3/xpg/roulettelobby.png');
+}
+div.casino-lobby-xpg div.casino-live-blackjack div.image {
+    background-image: url('../../images/online/b3/xpg/blackjacklobby.png');
+}
+div.casino-lobby-xpg div.casino-live-baccarat div.image {
+    background-image: url('../../images/online/b3/xpg/baccaratlobby.png');
+}
+div.casino-lobby-xpg div.casino-live-singlepoker div.image {
+    background-image: url('../../images/online/b3/xpg/singlepokerlobby.png');
+}
+div.casino-lobby-xpg div.casino-live-multipoker div.image {
+    background-image: url('../../images/online/b3/xpg/multipokerlobby.png');
+}
+div.casino-lobby-xpg div.casino-live-dragontiger div.image {
+    background-image: url('../../images/online/b3/xpg/tigerdragonlobby.png');
+}
+div.casino-lobby-xpg div.casino-live-sicbo div.image {
+    background-image: url('../../images/online/b3/xpg/sicbolobby.png');
+}
+div.casino-lobby-xpg div.casino-live-caribbeanpoker div.image {
+    background-image: url('../../images/online/b3/xpg/caribbeanpokerlobby.png');
+}
+div.casino-lobby-xpg div.casino-live-slots div.image {
+    background-image: url('../../images/online/b3/xpg/slotslobby.png');
+}
+div.casino-lobby-xpg div.casino-live-minigames div.image {
+    background-image: url('../../images/online/b3/xpg/minigameslobby.png');
+}
+div.casino-lobby-xpg div.casino-live-game div.footer {
+    position: relative;
+    padding:7px 0;
+    height: 25px;
+    background: #646464 linear-gradient(#888888, #646464);
+    border-radius: 5px;
+    margin: 1px;
+}
+div.casino-lobby-xpg div.footer a.game-button {
+    display: block;
+    position: relative;
+    height: 24px;
+    width: 200px;
+    background: #000 linear-gradient(#212121, #000);
+    border-radius: 4px;
+    margin: 0 auto;
+    color: #fff;
+    font: 600 11px/24px Tahoma;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+div.casino-lobby-xpg div.casino-game-lobby {
+    width: 280px;
+    float: left;
+}
+div.casino-lobby-xpg div.casino-game-rooms {
+    margin-left: 350px;
+    margin-right: 50px;
+    margin-top: 5px;
+    background-color: #212121;
+    border-radius: 5px;
+    border: 1px solid #484848;
+}
+div.casino-lobby-xpg div.casino-game-lobby div.casino-live-game {
+    width: 250px;
+    height: 160px;
+}
+div.casino-lobby-xpg div.casino-game-lobby div.casino-live-game div.image {
+    height: 100px;
+}
+div.casino-lobby-xpg div.casino-game-rooms div.header {
+    height: 30px;
+    background: #000 linear-gradient(#363636, #000000);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin: 1px;
+    color: #fff;
+    text-indent: 16px;
+    font: 700 13px/30px Tahoma;
+}
+div.casino-lobby-xpg div.casino-game-rooms div.live-game-room {
+    width: 400px;
+    height: 220px;
+    margin: 5px;
+    float: left;
+    border: 1px solid #888;
+    border-radius: 5px;
+    background-color: #363636;
+}
+div.casino-lobby-xpg div.casino-game-rooms div.live-game-room div.header {
+    height: 25px;
+    background: #000 linear-gradient(#363636, #000000);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin: 1px;
+    color: #fff;
+    text-indent: 8px;
+    font: 700 11px/25px Tahoma;
+}
+div.casino-lobby-xpg div.casino-game-rooms div.live-game-room div.room-info {
+    position: relative;
+    height: 156px;
+}
+div.casino-lobby-xpg div.casino-game-rooms div.live-game-room div.dealer-photo {
+    position: absolute;
+    top: 4px;
+    left: 12px;
+    border-radius: 5px;
+    width: 120px;
+    height: 150px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.casino-lobby-xpg div.casino-game-rooms div.live-game-room div.room-data {
+    position: absolute;
+    top: 4px;
+    left: 165px;
+    border-radius: 5px;
+    width: 210px;
+    height: 116px;
+    background: #000 linear-gradient(#484848,#000);
+    border: 2px solid #888;
+    padding: 12px 0;
+}
+div.casino-lobby-xpg div.casino-game-rooms div.live-game-room div.room-data div.info-line {
+    height: 22px;
+    font: 400 12px/22px Tahoma;
+    color: #fff;
+    text-align: left;
+    text-indent: 8px;
+}
+div.casino-lobby-xpg div.casino-game-rooms div.live-game-room div.room-data span.online-off,
+div.casino-lobby-xpg div.casino-game-rooms div.live-game-room div.room-data span.online-on {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    background-color: #0f0;
+    margin-right: 2px;
+}
+div.casino-lobby-xpg div.casino-game-rooms div.live-game-room div.room-data span.online-off {
+    background-color: #f00;
+}
+div.casino-lobby-xpg div.casino-game-rooms div.live-game-room div.footer {
+    position: relative;
+    padding:7px 0;
+    height: 20px;
+    background: #646464 linear-gradient(#888888, #646464);
+    border-radius: 5px;
+    margin: 1px;
+}
+
+div.casino-lobby-xpg iframe.minigames-iframe {
+    width: 1200px;
+    height: 1100px;
+    margin: 8px auto;
+    border: 0;
+    padding: 0;
+    overflow: hidden;
+}
+div.casino-lobby-xpg div.slot-game {
+    position: relative;
+    float: left;
+    width: 151px;
+    height: 130px;
+    margin: 6px 12px;
+    background: #212121;
+    border: 1px solid #484848;
+    padding: 4px 12px;
+    cursor: pointer;
+}
+div.casino-lobby-xpg div.slot-game div.slot-game-img {
+    width: 151px;
+    height: 112px;
+    background: center center no-repeat;
+    background-size: contain;
+}
+div.casino-lobby-xpg div.slot-game div.jackpot{
+    position: absolute;
+    bottom: 20px;
+    right: 5px;
+    height: 20px;
+    padding: 25px 0 15px 0;
+    width: 110px;
+    font: 400 13px/20px Verdana;
+    text-align: center;
+    color: #fff;
+    background: url('../../images/online/b3/xpg/jackpot.png') center center no-repeat;
+}
+div.casino-lobby-xpg div.slot-game div.slot-game-name {
+    height: 24px;
+    font: 700 12px/24px Tahoma;
+    text-align: center;
+    color: #fff;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+div.casino-lobby-xpg div.casino-user-account {
+    height: 30px;
+    background: #212121 linear-gradient(#363636, #212121);
+    border: 1px solid #484848;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+div.casino-lobby-xpg div.casino-user-account div.cash-account {
+    height: 30px;
+    width: 250px;
+    text-align: center;
+    float: left;
+}
+div.casino-lobby-xpg div.casino-user-account div.casino-account {
+    height: 30px;
+    width: 250px;
+    text-align: center;
+    float: left;
+}
+div.casino-lobby-xpg div.casino-user-account div.transfer {
+    width: 500px;
+    padding-top: 5px;
+    height: 20px;
+    text-align: left;
+    float: left;
+}
+div.casino-lobby-xpg div.casino-user-account div.transfer #casino-transfer-amount {
+    background: #484848;
+    color: #fff;
+    padding: 2px 4px;
+    border: 1px solid #888;
+    text-align: right;
+}
+div.casino-lobby-xpg div.casino-user-account div.transfer input[type="submit"] {
+    width: 150px;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #363636;
+}
+div.casino-lobby-xpg div.casino-user-account span.label {
+    font: 500 14px/30px Tahoma;
+    color: #fff;
+}
+div.casino-lobby-xpg div.casino-user-account span.balance {
+    font: 700 15px/30px Tahoma;
+    color: #edb63f;
+}
+
+div.casino-coming-soon {
+    padding: 100px;
+    text-align: center;
+    font: bold 18px/30px Verdana;
+}

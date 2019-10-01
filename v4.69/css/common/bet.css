@@ -1,0 +1,423 @@
+#infobar {
+    position: absolute;
+    width: 398px;
+    height: 28px;
+    top: 2px;
+    right: 4px;
+    background-color: #ffe79e;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #888;
+    border-bottom: 1px solid #888;
+}
+#infobar #prepaid-amount,
+#infobar #cashout {
+    display: none;
+}
+
+#infobar.sale-terminal {
+    background-color: #9ef098;
+}
+#infobar #clock {
+    position: absolute;
+    top: 0;
+    left: 4px;
+    width: 65px;
+    height: 28px;
+    font: 10px Verdana;
+    text-align: left;
+}
+#infobar.sale-terminal #prepaid-amount {
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 73px;
+    width: 110px;
+    height: 28px;
+    font: bold 15px/28px Verdana;
+    text-align: right;
+}
+#infobar.sale-terminal #cashout {
+    position: absolute;
+    display: block;
+    top: 2px;
+    right: 1px;
+    width: 61px;
+    padding-left: 4px;
+    height: 25px;
+    font: bold 12px/25px Verdana;
+    text-align: left;
+    color: #fff;
+    background: url('../../images/kiosk/cashout.png') center center no-repeat;
+    cursor: pointer;
+}
+
+#infobar.sale-terminal #loadcard {
+    display: none;
+}
+
+
+.container-warning .yui-panel div.bd,
+.container-wait .yui-panel div.bd,
+.container-error .yui-panel div.bd,
+.container-success .yui-panel div.bd {
+    padding-left: 75px;
+    min-height: 50px;
+    background-image: url('../../images/kiosk/sprite2.png');
+    background-position: 15px -1585px;
+    background-repeat: no-repeat;
+}
+.container-error .yui-panel div.bd {
+    background-position: 15px -285px;
+    font: bold 14px/25px Verdana;
+    color: #300;
+}
+.container-success .yui-panel div.bd {
+    background-position: 15px -935px;
+}
+.container-wait .yui-panel div.bd {
+    background: #fff url('../../images/kiosk/waitbet.gif') 15px center no-repeat;
+    min-height: 72px;
+    padding-left: 135px;
+    padding-top: 45px;
+    font: bold 14px/20px Verdana;
+}
+
+#betslip-panel div.bd table tr.hd {
+    background: none;
+    font: inherit;
+    color: inherit;
+    border: 0;
+}
+#betslip-panel tr.controls button {
+    display: block;
+    width: 120px;
+    padding-left: 40px;
+    height: 50px;
+    border: 0;
+    cursor: pointer;
+    font: bold 15px/50px Verdana;
+    color: #000;
+}
+#prepaid-panel-buy {
+    background: url(../../images/kiosk/prepaid_buy.png) center center no-repeat;
+}
+#prepaid-panel-buy.disabled {
+    background: url(../../images/kiosk/prepaid_buy_disabled.png) center center no-repeat;
+}
+#prepaid-panel-print {
+    background: url(../../images/kiosk/prepaid_print.png) center center no-repeat;
+}
+#prepaid-panel-cancel {
+    background: url(../../images/kiosk/prepaid_cancel.png) center center no-repeat;
+}
+
+#betslip-panel table.betslip-panel-content {
+    width: 75%;
+    margin: 0 auto;
+}
+
+#betslip-panel-slip {
+    margin: 2px auto;
+    overflow: auto;
+    width: 375px;
+}
+div.inline-betslip table td {
+    border-left: 0;
+}
+div.inline-betslip tr.totals td {
+    text-align: left;
+}
+
+div.inline-betslip {
+    width: 350px;
+    border: 2px solid #000;
+}
+div.inline-betslip table {
+    width: 100%;
+    border-collapse: collapse;
+}
+div.inline-betslip tr.head{
+    background-color: #000;
+}
+div.inline-betslip table tr.head td {
+    padding: 8px;
+    color: #fff;
+    text-align: center;
+    font: 12px Verdana;
+}
+div.inline-betslip table tr td.pools-header {
+    text-align: center;
+    font: bold 13px Verdana;
+}
+div.inline-betslip table tr td div.pools-square {
+    width: 16px;
+    height: 16px;
+    border: 2px solid #000;
+    margin: 2px auto;
+    text-align: center;
+    font: bold 13px/16px Verdana;
+}
+div.inline-betslip table tr.match td {
+    padding: 1px;
+    color: #000;
+    border: 0;
+    border-top: 2px solid #000;
+}
+div.inline-betslip tr.match td.code {
+    padding: 0;
+    text-align: center;
+}
+div.inline-betslip tr.match td.code div.n {
+    background-color: #000;
+    color: #fff;
+    font: 9px Verdana;
+}
+div.inline-betslip tr.match td.code {
+    font: bold 11px Verdana;
+    padding: 2px;
+    text-align: center;
+}
+div.inline-betslip tr.match td.match div.match {
+    position: relative;
+}
+div.inline-betslip tr.match div.banker,
+div.inline-betslip tr.match div.group,
+div.inline-betslip tr.match div.combine{
+    height: 20px;
+    font: 11px/20px Verdana;
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    margin: 2px;
+}
+div.inline-betslip tr.match div.group {
+    width: 25px;
+    height: 30px;
+    font: bold 14px/20px Verdana;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+div.inline-betslip tr.match div.banker {
+    width: 35px;
+    position: absolute;
+    top: 0;
+    right: 30px;
+}
+div.inline-betslip tr.match div.combine {
+    width: 35px;
+    position: absolute;
+    top: 0;
+    right: 70px;
+}
+div.inline-betslip tr.match div.group div.title{
+    height: 10px;
+    font: 7px/10px Arial;
+}
+div.inline-betslip tr.match td.match {
+    font: bold 10px Arial;
+}
+div.inline-betslip tr.match td.match div.match {
+    min-height: 30px;
+}
+div.inline-betslip tr.match td.match div.date {
+    font: bold 9px Arial;
+}
+div.inline-betslip tr.match td.match div.match-result {
+    display: none;
+}
+div.inline-betslip tr.match td.match div.match div.match-result-ready {
+    display: block;
+}
+div.inline-betslip table span.original-odds {
+    display: none;
+}
+div.inline-betslip tr.selection td {
+    font: bold 12px Arial;
+}
+div.inline-betslip tr.selection-won {
+    background-color: #00FF00;
+}
+div.inline-betslip tr.selection-lost {
+    background-color: #FF0000;
+}
+div.inline-betslip tr.selection-void {
+    background-color: #CCCCCC;
+}
+div.inline-betslip tr.selection td.nr div.nr {
+    margin: 1px 3px;
+    background-color: #000;
+    color: #fff;
+    padding: 1px;
+    text-align: center;
+}
+div.inline-betslip tr.selection td.odds {
+    text-align: right;
+    padding-right: 4px;
+}
+div.inline-betslip tr.selection td.group {
+    font: bold 18px Verdana;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+div.inline-betslip table.bets {
+    margin: 10px auto;
+    width: 95%;
+    border-collapse: collapse;
+}
+div.inline-betslip table.bets td {
+    border: 0;
+    padding: 1px 2px;
+    font: 11px Verdana;
+    white-space: nowrap;
+}
+div.inline-betslip table.bets tr.hd td {
+    font-weight: bold;
+    text-align: right;
+}
+div.inline-betslip table table.bets tbody tr td.system,
+div.inline-betslip table table.bets tbody tr td.lines,
+div.inline-betslip table table.bets tbody tr td.odds,
+div.inline-betslip table table.bets tbody tr td.amount {
+    text-align: right;
+}
+div.inline-betslip table.bets tr.totals td {
+    font: bold 12px Verdana;
+    border-top: 1px solid #000;
+}
+div.inline-betslip table table.bets tbody tr.actual-payout {
+    display: none;
+}
+div.inline-betslip table.betslip-settled table.bets tbody tr.actual-payout {
+    display: table-row;
+}
+div.inline-betslip table.betslip-pending tr.actual-payout {
+    display: none;
+}
+div.inline-betslip table.betslip-html tr.actual-payout {
+    background-color: #000;
+    color: #fff;
+    font: bold 13px Verdana;
+}
+div.inline-betslip table.betslip-html tr.keno-stake td {
+    font: bold 15px/16px Verdana;
+    padding: 3px;
+}
+div.inline-betslip table.betslip-html table.keno-payouts {
+    margin: 0 auto;
+    width: auto;
+}
+div.inline-betslip table.betslip-html table.keno-payouts td{
+    text-align: right;
+}
+div.inline-betslip table.betslip-html tr td.keno-numbers {
+    font: bold 14px/18px Arial;
+    text-align: center;
+    padding: 6px 2px;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+div.inline-betslip-simple table.betslip-html-simple {
+    width: 99%;
+    margin: 0 auto;
+    border-top: 1px solid #000;
+    margin-top: 10px;
+}
+div.inline-betslip-simple table.betslip-html-simple td {
+    font: 11px Verdana;
+    padding: 2px 4px;
+}
+div.inline-betslip-simple table.betslip-html-simple td div.date{
+    font: 10px Arial;
+}
+div.inline-betslip-simple table.betslip-html-simple td.code {
+    font-weight: bold;
+    text-align: center;
+}
+div.inline-betslip-simple table.betslip-html-simple table.bets {
+    width: 100%;
+    border-top: 1px solid #000;
+}
+div.inline-betslip-simple table.betslip-html-simple table.bets td.amount,
+div.inline-betslip-simple table.betslip-html-simple table.bets td.lines,
+div.inline-betslip-simple table.betslip-html-simple td.odds {
+    text-align: right;
+}
+div.inline-betslip-simple table.betslip-html-simple table.bets td.hd {
+    text-align: center;
+    color: #777;
+}
+div.inline-betslip-simple table.betslip-html-simple tr.match td{
+    border-top: 1px dotted #000;
+}
+div.inline-betslip-simple table.betslip-html-simple div.nr {
+    border: 1px solid #000;
+    padding: 2px;
+    width: 30px;
+    margin: 0 auto;
+    text-align: center;
+}
+div.inline-betslip-simple div.slipid {
+    text-align: center;
+    font: bold 16px/30px Verdana;
+    height: 30px;
+    border-bottom: 1px solid #888;
+    border-top: 1px solid #888;
+}
+div.inline-betslip-simple tr.actual-payout {
+    display: none;
+}
+
+div.card-input-label {
+    text-align: center;
+    padding: 8px;
+    font: bold 14px/25px Verdana;
+}
+div.card-input {
+    padding: 4px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+div.card-input input.card-nums {
+    padding: 2px;
+    border: 2px solid #333;
+    width: 40px;
+    font: bold 13px Verdana;
+}
+#loadcard {
+    position: absolute;
+    width: 65px;
+    height: 25px;
+    top: 1px;
+    right: 4px;
+    cursor: pointer;
+    text-indent: -9999px;
+    font-size: 0;
+    background: url('../../images/website/loadcard.png') center center no-repeat;
+}
+
+#couponview table.coupon tr td.sport {
+    padding-left: 30px;
+    background-position: 5px center;
+    background-repeat: no-repeat;
+}
+
+#couponview table.coupon tr td.sport-soccer            { background-image: url('../../images/admin/sport_soccer.png');  }
+#couponview table.coupon tr td.sport-basketball        { background-image: url('../../images/admin/sport_basketball.png');  }
+#couponview table.coupon tr td.sport-baseball          { background-image: url('../../images/admin/sport_baseball.png');  }
+#couponview table.coupon tr td.sport-ice-hockey        { background-image: url('../../images/admin/sport_ice_hockey.png');  }
+#couponview table.coupon tr td.sport-tennis            { background-image: url('../../images/admin/sport_tennis.png');  }
+#couponview table.coupon tr td.sport-handball          { background-image: url('../../images/admin/sport_handball.png');  }
+#couponview table.coupon tr td.sport-golf              { background-image: url('../../images/admin/sport_golf.png');  }
+#couponview table.coupon tr td.sport-motorsport        { background-image: url('../../images/admin/sport_motorsport.png');  }
+#couponview table.coupon tr td.sport-rugby             { background-image: url('../../images/admin/sport_rugby.png');  }
+#couponview table.coupon tr td.sport-american-football { background-image: url('../../images/admin/sport_american_football.png'); }
+#couponview table.coupon tr td.sport-snooker           { background-image: url('../../images/admin/sport_snooker.png'); }
+#couponview table.coupon tr td.sport-darts             { background-image: url('../../images/admin/sport_darts.png'); }
+#couponview table.coupon tr td.sport-volleyball        { background-image: url('../../images/admin/sport_volleyball.png'); }
+#couponview table.coupon tr td.sport-futsal            { background-image: url('../../images/admin/sport_futsal.png'); }
+#couponview table.coupon tr td.sport-cricket           { background-image: url('../../images/admin/sport_cricket.png');  }
+#couponview table.coupon tr td.sport-bowls             { background-image: url('../../images/admin/sport_bowls.png');  }

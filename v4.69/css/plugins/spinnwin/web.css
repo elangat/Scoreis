@@ -1,0 +1,541 @@
+#page.spinnwin #bd {
+    margin: 0;
+    width: auto;
+    text-align: center;
+}
+#spinnwinview {
+    width: 1060px;
+    margin: 0 50px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#wheel-container {
+    position: absolute;
+    left: 32px;
+    top: 2px;
+    width: 286px;
+    height: 286px;
+    z-index: 200;
+}
+#wheel-center {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 266px;
+    height: 266px;
+    background: url('../../../images/plugins/spinwin/roulettebase-web.png') center center no-repeat;
+    z-index: 300;
+}
+#wheel {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 286px;
+    height: 286px;
+    background: url('../../../images/plugins/spinwin/roulettewheel-small.png') center center no-repeat;
+    z-index: 260;
+}
+#number {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 266px;
+    height: 266px;
+    background: none;
+    font-family: "Open Sans";
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 266px;
+    color: #fff;
+    text-align: center;
+    border-radius: 75px;
+    transition: 0.05s;
+    z-index: 400;
+}
+#number.number-ball-red {
+    background: url('../../../images/plugins/spinwin/number-ball-red.png') center center no-repeat;
+    opacity: 0.9;
+}
+#number.number-ball-black {
+    background: url('../../../images/plugins/spinwin/number-ball-black.png') center center no-repeat;
+    opacity: 0.9;
+}
+#number.number-ball-green{
+    background: url('../../../images/plugins/spinwin/number-ball-green.png') center center no-repeat;
+    opacity: 0.9;
+}
+#spinnwinview div.page-spinwin {
+    position: relative;
+    margin-left: 4px;
+    width: 100%;
+    height: 700px;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    padding: 1px;
+    color: #fff;
+}
+#spinnwinview div.page-spinwin div {
+    box-sizing: border-box;
+}
+#sale-board #french-bet-layer {
+    z-index: 4;
+}
+#sale-board #french-mask-layer {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+#sale-board #french-mask-layer.hidden {
+    visibility: hidden;
+}
+#sale-board #french-mask-layer .highlight {
+    background: #fff;
+}
+#spinnwinview div.page-spinwin div.main-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 38px;
+    color: #fff;
+    font: bold 13px/38px Verdana;
+    box-shadow: indianred;
+}
+#spinnwinview div.page-spinwin div.hd-gradient {
+    background: #404040;
+    background-image: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.2) 0%,
+        rgba(255, 255, 255, 0.13) 10%,
+        rgba(255, 255, 255, 0) 50.5%,
+        rgba(0, 0, 0, 0.07) 50.6%,
+        rgba(0, 0, 0, 0) 100%
+    );
+}
+div.page-spinwin div.spin-jackpot {
+    position: absolute;
+    top: 0;
+    right: 35%;
+    width: 256px;
+    height: 38px;
+    font: bold 18px/38px sans-serif;
+    text-align:center;
+}
+div.page-spinwin div.spin-jackpot.dd-gold{
+    color:#3c2e09;
+    text-shadow:0 1px #fe98;
+    border-radius:4px;
+    box-sizing: border-box;
+    border: 1px solid #ffa3;
+    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+    radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+    box-shadow:0 0 0 1px #0003, 0 2px 2px #0003;
+}
+div.page-spinwin div.main-header div.new-game {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;
+    padding-left: 20px;
+    text-align: left;
+}
+div.page-spinwin div.main-header div.mytickets {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30%;
+    padding-right: 30px;
+    text-align: right;
+}
+div.page-spinwin div.draw-board {
+    position: absolute;
+    top: 38px;
+    left: 0;
+    width: 65%;
+    height: 580px;
+    padding: 12px;
+    background: #212121;
+    box-shadow: inset 0 4px 4px -4px #0008;
+}
+div.page-spinwin div.spin-history {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 50%;
+    background: #222;
+    padding: 10px;
+}
+div.page-spinwin div.spin-history div.stats-head {
+    width: 99%;
+    height: 25px;
+    font: bold 14px/25px sans-serif;
+    border-radius: 4px 4px 0 0;
+    background-color: #616161;
+}
+div.page-spinwin div.spin-history div.stats-cell {
+    float: left;
+    width: 33%;
+    height: 100%;
+}
+#spin-stats div.last-numbers-col {
+    float: left;
+    height: 100%;
+    width: 33%;
+    background-color: #000;
+}
+#spin-stats div.hotcold-numbers-col {
+    float: left;
+    height: 100%;
+    width: 33%;
+    background-color: #282828;
+}
+#spin-stats div.history-cell{
+    height: 25px;
+    font: bold 15px/25px sans-serif;
+}
+#spin-ticket-list .number-color-black,
+#spin-stats .number-color-black {
+    color: #fff;
+}
+#spin-ticket-list .number-color-red,
+#spin-stats .number-color-red {
+    color: #DF0101;
+}
+#spin-ticket-list .number-color-green,
+#spin-stats .number-color-green {
+    color: #01DF01;
+}
+#spin-stats .freq-num{
+    font: bold 12px/24px sans-serif;
+    color: #ccc;
+}
+#game-board {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: #333;
+    padding: 10px;
+}
+#sale-board {
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    width: 640px;
+    height: 254px;
+    background: url(../../../images/plugins/spinwin/rouletteboardweb.png) center center no-repeat;
+    z-index: 1;
+}
+#sale-board.french{
+    background: url(../../../images/plugins/spinwin/neihgborsboadweb.png) center center no-repeat;
+}
+#sale-board #french{
+    position: absolute;
+    width: 616px;
+    height: 250px;
+    top: 0px;
+    left: 0px;
+    display: none;
+    z-index: 5;
+    background: none;
+}
+#game-board div.game-board-header{
+    float: left;
+    text-align: left;
+    width: 50%;
+    position: relative;
+    font: 16px/20px Verdana;
+}
+#game-board div.spin-clear{
+    float: right;
+}
+#game-board div.french-switch{
+    position: absolute;
+    width: 66px;
+    height: 38px;
+    bottom: 24px;
+    right: -4px;
+    z-index: 2;
+    cursor: pointer;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color:#444;
+    transform:rotate(90deg);
+    border-radius: 4px;
+    opacity: 0.5;
+}
+#game-board div.french-switch.french {
+    background-image: url(../../../images/plugins/spinwin/neighborsgrid.png);
+}
+#game-board div.french-switch.rulette {
+    background-image: url(../../../images/plugins/spinwin/roulettegrid.png);
+}
+div.page-spinwin div.tickets {
+    position: absolute;
+    top: 88px;
+    right: 0;
+    height: 530px;
+    width: 35%;
+    background: #181818;
+}
+div.page-spinwin div.mytickets-btns {
+    position: absolute;
+    top: 38px;
+    right: 0;
+    height: 50px;
+    width: 35%;
+    padding: 0 10px;
+    background-color: #2b2b2b;
+}
+div.page-spinwin div.mytickets-btn {
+    float: left;
+    width: 47.7%;
+    height: 30px;
+    background-color: #424242;
+    color: #fff;
+    text-align: center;
+    margin: 10px 4px;
+    cursor: pointer;
+    border : 1px solid #000;
+    border-radius: 4px;
+    box-shadow: inset 0 1px rgba(255,255,255,0.1);
+    font: normal 12px/25px Verdana;
+    border-radius: 4px;
+}
+#spin-footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 80px;
+    background-color: #5d5d5d;
+    color: #fff;
+    text-align: center;
+}
+#spin-footer div.spin-info{
+    float: left;
+    width: 28%;
+    height: 60px;
+    margin: 10px 8px;
+    background-color: #323232;
+    border-radius:  4px;
+    font: 13px/20px Verdana;
+}
+#spin-footer div.spin-info div.info-blk {
+    width: 33%; 
+    float: left; 
+    height: 100%;
+}
+#spin-footer div.spin-info div.info-title {
+    line-height: 30px;
+}
+#spin-footer div.spin-info div.info-value {
+    line-height: 20px;
+}
+#info-options {
+    float: left;
+    width: 40%;
+    height: 60px;
+    margin: 10px 8px;
+    background-color: #323232;
+    border-radius: 6px;
+    
+}
+#info-options div.chip{
+    float: left;
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font: bold 16px/50px Verdana;
+    color: #000;
+    opacity: 0.6;
+    cursor: pointer;
+}
+#info-options div.chip.selected {
+    opacity: 1;
+}
+#info-options div.chip.chip-1{
+    background: url(../../../images/plugins/spinwin/chip-1.png) center center no-repeat;
+}
+#info-options div.chip.chip-2{
+    background: url(../../../images/plugins/spinwin/chip-2.png) center center no-repeat;
+}
+#info-options div.chip.chip-3{
+    background: url(../../../images/plugins/spinwin/chip-3.png) center center no-repeat;
+}
+#info-options div.chip.chip-4{
+    background: url(../../../images/plugins/spinwin/chip-4.png) center center no-repeat;
+}
+#info-options div.chip.chip-5{
+    background: url(../../../images/plugins/spinwin/chip-5.png) center center no-repeat;
+}
+#bet-chips div.chip{
+    color: #555;
+    /*opacity: 0.6;*/
+    font: bold 8px/14px Verdana;
+}
+#info-options div.undo {
+    float: left;
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    background-image: url(../../../images/plugins/spinwin/undo-on.png);
+    cursor: pointer;   
+}
+#info-options div.undo-off {
+    float: left;
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    background-image: url(../../../images/plugins/spinwin/undo-off.png);
+    opacity: 0.5;
+    cursor: pointer;   
+}
+#info-options div.clear {
+    float: left;
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    background-image: url('../../../images/plugins/spinwin/clear.png'); 
+    cursor: pointer;   
+}
+#info-options div.total-chips{
+    float: right;
+    background-color: #181818;
+    width: 42px;
+    height: 100%;
+    font: 18px/80px Verdana;
+    cursor: pointer;
+}
+
+#spin-footer div.submit-draws{
+    float: left;
+    width: 28%;
+    height: 60px;
+    margin: 10px 4px;
+    background-color: #323232;
+    border-radius: 4px;
+}
+#spin-footer div.submit-draws div.draw-mul {
+    float: left;
+    width: 15%;
+    height: 60px;
+}
+#spin-footer div.submit-draws div.draw-mul div {
+    height: 30px;
+    width: 100%;
+    font: bold 14px/32px Verdana;
+    cursor: pointer;
+    box-shadow:  inset -1px -1px 0px rgba(0, 0, 0, 0.2);
+}
+#spin-footer div.submit-draws div.draw-show {
+    float: left;
+    height: 60px;
+    width: 20%;
+}
+#spin-footer div.submit-draws div.draw-show div.draws-num {
+    height: 40px;
+    width: 100%;
+    font: 22px/45px Verdana;
+}
+#spin-footer div.submit-draws div.draw-show div.draws-text {
+    height: 20px;
+    width: 100%;
+    font: 8px/10px Verdana;
+}  
+#spin-footer div.submit-draws div.place-bets {
+    display: block;
+    float: left;
+    height: 60px;
+    width: 65%;
+    background : #39B54A;
+    box-shadow : 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 0 4px 4px 0;
+    font: 14px/24px Verdana;
+    padding: 6px 0;
+    cursor: pointer;
+}
+#spin-footer div.submit-draws div.place-bets div {
+    width: 100%;
+    height: 24px;
+    text-align: center;
+}
+#spin-footer div.submit-draws div.place-bets div.submit-stake {
+    height: 24px;
+    font: 10px/24px Verdana;
+    width: 100%;
+    border-bottom-right-radius: 4px;
+    overflow: hidden;
+    text-align: center;
+}
+#spin-tickets div.spin-betslip-types{
+    height: 22px;
+    font: 12px/22px Verdana;
+    background-color: #2b2b2b;
+}
+#spin-ticket-list {
+    height: 70%;
+    overflow: auto;
+}
+#spin-betslip-list {
+    height: 26%;
+    overflow: auto;
+}
+#spin-ticket-list div {
+    width: 96%;
+}
+#spin-ticket-list div.ticket-row {
+    height: 20px;
+    font: 14px/20px Verdana;
+    margin: 5px auto 0;
+    padding-left: 5px;
+    text-align: left;
+    clear: both;
+    background-color: #616161;
+    border-radius: 4px 4px 0 0;
+    color: #fff;
+}
+#spin-ticket-list div.ticket-row .ticket-clear {
+    float: right; 
+    width: 30px; 
+    text-align: center;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.16);
+    border-radius: 0 4px 0 0;
+}
+#spin-ticket-list div.betslip-row.lost {
+    background-color: #f44;
+}
+#spin-ticket-list div.betslip-row.won  {
+    background-color: #39B54A;
+}
+#spin-ticket-list div.betslip-row {
+    height: 18px;
+    line-height: 18px;
+    margin: 0 auto 1px;
+    background-color: #424242;
+}
+#spin-ticket-list div.betslip-total-row span.ticket-draws {
+    float: left; 
+    padding-left: 5px;
+}
+#spin-ticket-list div.betslip-total-row{
+    height: 20px;
+    line-height: 20px;
+    border-top: 1px solid #000;
+    margin: 0 auto;
+    background-color: #424242;
+    border-radius: 0 0 4px 4px;
+}
+#spin-betslip-list div.bet-row{
+    height: 18px;
+    margin: 0 auto 1px;
+    background-color: #424242;
+    font: 12px/18px Verdana;
+}

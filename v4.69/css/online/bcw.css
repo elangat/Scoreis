@@ -1,0 +1,112 @@
+
+div.casino-lobby-bcw {
+    padding: 20px 50px;
+    min-height: 600px;
+    margin: 0px auto;
+    display: table;
+}
+.button-play-now {
+    cursor: pointer;
+    cursor: hand;
+    position: relative;
+    display: inline-block;
+    background: #red;
+    margin: 20px;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    line-height: 40px;
+    font: bold 24px/50px "Tahoma", sans-serif;
+    border: 5px solid #fff;
+    border-radius: 15px;
+    background: linear-gradient(180deg, rgba(255, 102, 102, 1) 0%, rgba(255, 0, 0, 1) 40%, rgba(255, 0, 0, 1) 70%, rgba(191, 0, 0, 1) 100%);
+    color: #fff;
+    box-shadow: 0px 3px 10px #000;
+        }
+    .button-pay-now:hover {
+        transform: scale(1.01);
+        background: linear-gradient(180deg, rgba(255, 102, 102, 1) 0%, rgba(255, 0, 0, 1) 70%, rgba(160, 0, 0, 1) 100%);
+        box-shadow: 0px 5px 10px #000;
+    }
+    .button-play-now:active {
+        transform: scale(1);
+    }
+    
+    .button2 {
+    position: relative;
+    display: inline-block;
+    background: #red;
+    margin: 20px;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    line-height: 40px;
+    font: bold 24px/50px "Tahoma", sans-serif;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    background: linear-gradient(180deg, rgba(255, 102, 102, 1) 0%, rgba(255, 0, 0, 1) 40%, rgba(255, 0, 0, 1) 70%, rgba(191, 0, 0, 1) 100%);
+    color: #fff;
+    box-shadow: 0px 3px 10px #000;
+        }
+    .button-play-now:hover {
+        transform: scale(1.01);
+        background: linear-gradient(180deg, rgba(255, 102, 102, 1) 0%, rgba(255, 0, 0, 1) 70%, rgba(160, 0, 0, 1) 100%);
+        box-shadow: 0px 5px 10px #000;
+    }
+    .button-play-now:active {
+        transform: scale(1);
+    }
+     .button2:hover {
+        transform: scale(1.01);
+        background: linear-gradient(180deg, rgba(255, 102, 102, 1) 0%, rgba(255, 0, 0, 1) 70%, rgba(160, 0, 0, 1) 100%);
+        box-shadow: 0px 5px 10px #000;
+    }
+    .button2:active {
+        transform: scale(1);
+    }
+    
+        
+.bcw-loading {
+    position: absolute;
+    width:20%;
+    height: 20%;
+    left: 40%;
+    top:40%;
+    background: transparent url('../../images/online/bcw/loading.gif') center center no-repeat;
+}
+
+.bcw-loading-opacity {
+    opacity: 0.2;
+}
+
+div.casino-lobby-bcw div.slot-game {
+    position: relative;
+    float: left;
+    width: 151px;
+    height: 130px;
+    margin: 6px 12px;
+    padding: 4px 12px;
+    cursor: pointer;
+}
+
+div.slot-game-big-img-bcw {
+    width: 1002px;
+    height: 500px;
+    background: center center no-repeat;
+    background-size: contain;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+div.casino-button-bcw {
+    width: 300px;
+    margin: 20px auto 0;
+    text-align: center;
+}
+
+.playnow-livecasino-bcw {
+    background-image: url(../../images/livecasino/playnow.png);
+    width: 300px;
+    height: 60px;
+    margin: 30px auto 20px;
+}

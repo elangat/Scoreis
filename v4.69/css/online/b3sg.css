@@ -1,0 +1,251 @@
+
+a#home-logo {
+    width: 220px;
+    height: 75px;
+    background: url(../../images/online/b3/sahara/logo.png) center center no-repeat;
+}
+#scroll-to-top {
+    display: none !important;
+    visibility: hidden;
+}
+#slip div.match-section div.match div.match-min-combs {
+    display: none;
+}
+#page div.slip-content div.system-head div.COMBINE-head-tab {
+    display: none;
+}
+#page div.slip-content div.system-head div.slip-head-tab {
+    position: relative;
+    width: auto;
+}
+
+.sporstbook-account .content-tab-1 .desc ul {
+    margin-left: 30px;
+}
+
+.sporstbook-account .content-tab-1 .desc li {
+    list-style: square;
+}
+
+a.payBill {
+   position: absolute;
+   top: 80px;
+   right: 50px;
+   border-radius: 5px;
+   background: #888;
+   height: 65px;
+}
+#nav-right a.payBill {
+    display: block;
+    position: relative;
+    top: auto;
+    right: auto;        
+}
+
+img.payBill{
+    width: 100px;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px 0px 0px 5px;
+    height: 55px;
+}
+
+span.payBillNumber{
+    /* background: #FFF; */
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 65px;
+    padding: 5px;
+    vertical-align: top;
+    color: #FF;
+}
+
+a#home-logo {
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    width: 260px;
+    height: 120px;
+}
+
+#hd {
+    position: relative;
+    height: 216px;
+}
+
+#hd #product-menu {
+    top: 176px;
+}
+
+#hd div.search {
+    position: absolute;
+    float: none;
+    width: 350px;
+    height: 40px;
+    top: 115px;
+    right: 400px;
+}
+#hd div.search #search {
+    border: 1px solid #888;
+     border-radius: 0px;
+    padding-left: 8px;
+    width: 330px;
+    height: 25px;
+    color: #bebebe;
+    background: #363636 url(../../images/online/b3/topsearch.png) right center no-repeat;
+}
+
+#hd #user-panel {
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    height: 25px;
+    width: 90%;
+    color: #fff;
+    text-align: right;
+}
+
+#page.register-page #hd {
+    height: 215px;
+}
+
+
+
+a.payBillft {
+   position: absolute;
+   top: 80px;
+   right: 50px;
+   border-radius: 5px;
+   background: #888;
+   height: 65px;
+}
+
+img.payBillft{
+    width: 100px;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px 0px 0px 5px;
+    height: 55px;
+}
+
+span.payBillNumberft{
+    /* background: #FFF; */
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 65px;
+    padding: 5px;
+    vertical-align: top;
+    color: #FF;
+}
+.footer_payments a.payBillft {
+    position:relative;
+    top: 0px;
+    right: 0px;
+    display:inline-block;
+     -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-content: center;
+  align-content: center;
+}
+.footer_payments {
+    width:300px;
+    margin-bottom: 10px;
+}
+
+img.payBillft {
+    width: 100px;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px 0px 0px 5px;
+    height: 55px;
+    margin-top: 0px;
+}
+img.footer_img {
+    margin-top:0px;
+}
+
+ul.menu-block div.footer_header {
+    margin-bottom: 20px;
+    color: #faa21b;
+    font: 700 12px Arial;
+    text-transform: uppercase;
+}
+
+ul.menu-block div.footer_contact {
+    /*width: 300px;
+    margin-left: 100px;*/
+}
+
+div.footer_social {
+    width: 300px;
+}
+
+
+div.refer-a-friend {
+    position: absolute;
+    top: 95px;
+    right: 55px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 5px;
+}
+
+
+
+
+div.refer-a-friend input[type="text"] {
+    width: 133px;
+    height: 25px;
+    border: 1px solid #ccc;
+    background-color: #FFF;
+    color: #000;
+    text-indent: 4px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+  
+}
+div.refer-a-friend input[type="submit"] {
+    width: 90px;
+    height: 25px;
+    border: 0;
+    background-color: #327eb0;
+    color: #fff;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+#ft #footer-sitemap div.footer-links ul {
+    min-width: 60px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin: 0px 20px;
+    width: auto;
+}
+
+#ft .footer-item.licence {
+    width: 400px;
+    margin-top: 40px;
+}
+
+#hd #product-menu li.ladies-choice {
+    background: ecb541;
+    color: white; 
+    text-shadow: 1px 1px 5px #000000; 
+    font-family: Allura;
+}
+
+#hd #product-menu li.ladies-choice a {
+    background: ecb541;
+    color: white; 
+    text-shadow: 1px 1px 5px #000000; 
+    font-family: Allura;
+}
+
+
+#hd #product-menu li a {
+    padding: 0;
+}
+
+#page.view-account #nav-left li a.account-menu-item.promotions {
+    display: none;
+}

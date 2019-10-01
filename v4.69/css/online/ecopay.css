@@ -1,0 +1,45 @@
+.input-ecopay {
+    padding-left: 5px;
+    width: 85px;
+    height: 20px;
+    background-color: #363636;
+    border: 1px solid #474747;
+    border-radius: 10px;
+    color: #fff;
+    padding: 0 8px;
+}
+
+.input-client-ecopay {
+    padding-left: 5px;
+    width: 180px;
+    height: 20px;
+    background-color: #363636;
+    border: 1px solid #474747;
+    border-radius: 10px;
+    color: #fff;
+    padding: 0 8px;
+}
+
+.input-accountno-ecopay {
+    padding-left: 5px;
+    width: 180px;
+    height: 20px;
+    background-color: #363636;
+    border: 1px solid #474747;
+    border-radius: 10px;
+    color: #fff;
+    padding: 0 8px;
+}
+
+.button-ecopay {
+    left: 160px;
+    background: #ff8806 linear-gradient(#edb63f, #ff8806);
+    color: #212121;
+    height: 30px;
+    width: 160px;
+    font: bold 16px/19px arial,helvetica,clean,sans-serif;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 1rem;
+}

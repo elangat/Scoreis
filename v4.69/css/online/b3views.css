@@ -1,0 +1,167 @@
+#page #bd div.match-coupon-view div.match {
+    position: relative;
+    height: 35px;
+    background: #275914 linear-gradient(#275914, #387a20);
+    box-sizing: border-box;
+    overflow: hidden;
+    border-bottom: 1px solid #020;
+}
+#page #bd div.match-coupon-view div.match * {
+    box-sizing: border-box;
+}
+#page #bd div.match-coupon-view.match-coupon-view-rows-2 div.match {
+    height: 65px;
+}
+#page #bd div.match-coupon-view div.match div.match-info {
+    position: absolute;
+    width: 300px;
+    height: 100%;
+}
+#page #bd div.match-coupon-view div.match-markets {
+    position: relative;
+    margin-left: 350px;
+    margin-right: 50px;
+    text-align: right;
+}
+#page #bd div.match-coupon-view div.match-market-column {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+#page #bd div.match-coupon-view div.match-market-column-2 {
+    width: 80px;
+}
+#page #bd div.match-coupon-view div.match-market-column-3 {
+    width: 120px;
+}
+#page #bd div.match-coupon-view div.match-market-column-4 {
+    width: 160px;
+}
+#page #bd div.match-coupon-view div.match-market-column-5 {
+    width: 200px;
+}
+#page #bd div.match-coupon-view div.match-market-column div.match-market div.match-market-outcome,
+#page #bd div.match-coupon-view div.match-market-column div.match-market div.match-market-line{
+    display: inline-block;
+    width: 35px;
+    margin-right: 4px;
+    vertical-align: top;
+    height: 30px;
+    line-height: 30px;
+}
+#page #bd div.match-coupon-view div.match-market-column div.match-market div.match-market-mincomb {
+    display: inline-block;
+    width: 20px;
+    margin-right: 2px;
+    vertical-align: top;
+    height: 30px;
+    line-height: 30px;
+    background: #888;
+    color: #fff;
+    border-radius: 15px;
+    text-align: center;
+}
+#page #bd div.match-coupon-view div.match-market-column div.match-market div.selection-holder,
+#page #bd div.match-coupon-view div.match-market-column div.match-market div.selection-button {
+    display: inline-block;
+    width: 35px;
+    background-color: #333;
+    margin-right: 4px;
+    height: 30px;
+    line-height: 30px;
+}
+#page #bd div.match-coupon-view div.match-market-column div.match-market div.selection-button div.outcome {
+    display: none;
+}
+#page #bd div.match-coupon-view div.match-market-column div.match-market div.selection-button div.selection {
+    color: #fff;
+}
+#page #bd div.match-coupon-view div.match-market-column div.match-market div.selection-holder,
+#page #bd div.match-coupon-view div.match-market-column div.match-market div.selection-button {
+    display: inline-block;
+}
+
+#page #bd div.match-coupon-view div.match div.match-live-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 350px;
+    height: 100%;
+}
+#page #bd div.match-coupon-view div.match div.match-live-info div.match-minute {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 100%;
+    background: #234a15 linear-gradient(#234a15, #2f6819);
+    text-align: center;
+    line-height: 35px;
+}
+#page #bd div.match-coupon-view.match-coupon-view-rows-2 div.match div.match-live-info div.match-minute {
+    line-height: 65px;
+}
+#page #bd div.match-coupon-view div.match div.match-live-info div.score {
+
+}
+#page #bd div.match-coupon-view div.match div.teams {
+    position: absolute;
+    top: 25px;
+    left: 50px;
+    width: 300px;
+    text-align: center;
+}
+#page #bd div.match-coupon-view div.match div.match-code {
+    display: none;
+}
+#page #bd div.match-coupon-view div.match div.match-league-code {
+    display: none;
+}
+#page #bd div.match-coupon-view div.match div.match-league-name {
+    display: none;
+}
+#page #bd div.match-coupon-view div.match-status-live div.match-time {
+    display: none;
+}
+#page #bd div.match-coupon-view div.match:not(.match-status-live) div.match-live-info {
+    display: none;
+}
+#page #bd div.match-coupon-view div.match div.match-info div.match-info-bg {
+    position: absolute;
+    top: 0px;
+    left: 165px;
+    width: 65px;
+    height: 18px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background: #397b21;
+    border: 1px solid #050;
+    border-top: 0;
+}
+#page #bd div.match-coupon-view div.match-status-live div.match-score {
+    position: absolute;
+    top: 0;
+    left: 165px;
+    width: 65px;
+    height: 18px;
+    font: 12px/18px Tahoma;
+    text-align: center;
+    color: #ffff00;
+}
+#page #bd div.match-coupon-view div.match div.match-live-info div.match-period,
+#page #bd div.match-coupon-view div.match div.match-live-info div.match-setscores,
+#page #bd div.match-coupon-view div.match div.match-live-info div.match-main-mincomb,
+#page #bd div.match-coupon-view div.match div.match-live-info div.match-cards-off {
+    display: none;
+}
+#page #bd div.match-coupon-view div.match div.match-main-mincomb {
+    display: none;
+}
+
+#page #bd div.match-coupon-view div.match-coupon-sport .match-coupon-sport-header {
+    overflow: hidden;
+}
+#page #bd div.match-coupon-view div.match-coupon-sport .match-coupon-category-header {
+    overflow: hidden;
+}
+

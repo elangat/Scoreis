@@ -1,0 +1,683 @@
+
+#poolsview {
+    position: relative;
+}
+#poolsview div.pools-list {
+    width: 280px;
+    float: left;
+}
+#poolsview div.pools-list div.page {
+    padding-left: 4px;
+    padding-top: 4px;
+    position: relative;
+}
+
+#poolsview div.side-header {
+    width:100%;
+    height:36px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 34px;
+    color:#ffffff;
+    text-align: center;
+    background: #7d7e7d; /* Old browsers */
+    background: -moz-linear-gradient(top, #7d7e7d 0%, #0e0e0e 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #7d7e7d 0%,#0e0e0e 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #7d7e7d 0%,#0e0e0e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 );
+    margin-bottom: 1px;
+    margin-top: 1px;
+}
+#poolsview div.pools-list div.pools-item {
+    width: 100%;
+    height: 36px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 34px;
+    color: #ffffff;
+    text-align: center;
+    background: #7d7e7d;
+    background: -moz-linear-gradient(top, #7d7e7d 0%, #0e0e0e 100%);
+    background: -webkit-linear-gradient(top, #7d7e7d 0%,#0e0e0e 100%);
+    background: linear-gradient(to bottom, #7d7e7d 0%,#0e0e0e 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 );
+    margin-bottom: 1px;
+    margin-top: 1px;
+    cursor:pointer;
+}
+#poolsview div.pools-list div.r1 {
+    background-color: #1a8ed7;
+}
+#poolsview div.pools-list div.selected {
+  /*  background: #fcbe16 linear-gradient(to bottom, #fcbe16, #e3a814) repeat scroll 0 0;*/
+  /* border: 0 solid #000000; */
+  /* border-radius: 0; */
+    color: #000000;
+    display: inline-block;
+    font-family: verdana,sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+  /* line-height: 34px; */
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+  /* text-shadow: 2px 2px 0 rgba(240, 240, 240, 0.3); */
+  width: 100%;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fceabb+2,fccd4d+28,f8b500+49,f8b500+49,fccd4d+83,fbdf93+100 */
+  background: #fceabb; /* Old browsers */
+  background: -moz-linear-gradient(top,  #fceabb 2%, #fccd4d 28%, #f8b500 49%, #f8b500 49%, #fccd4d 83%, #fbdf93 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #fceabb 2%,#fccd4d 28%,#f8b500 49%,#f8b500 49%,#fccd4d 83%,#fbdf93 100%); /* Chrome10-25,Safari5.1-6 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', endColorstr='#fbdf93',GradientType=0 ); /* IE6-9 */
+}
+#poolsview div.pools-list div.pools-item div.country {
+    /* height: 50px; */
+    /* left: 0; */
+    /* position: absolute; */
+    /* top: 0; */
+    /* width: 75px; */
+    /*! float: left; */
+}
+#poolsview div.pools-list div.pools-item div.country div.flag {
+    left: 6px;
+    /* position: absolute; */
+    top: 1px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    /* width: 50px; */
+    /* height: 35px; */
+    width: 52px;
+}
+#poolsview div.pools-list div.pools-item div.label {
+    font: bold 16px/22px Verdana;
+    height: 20px;
+    margin-left: 0px;
+    position: relative;
+    white-space: nowrap;
+    /*! text-align: center; */
+    /*! float: right; */
+}
+#poolsview div.pools-list div.page div.selected div.label {
+    color: #000;
+}
+#poolsview div.pools-content {
+    margin-left: 300px;
+    padding: 4px;
+    position: relative;
+    width: 700px;
+    min-height: 600px;
+    /* border: 2px solid #000; */
+    /* border-radius: 5px; */
+}
+#poolsview div.pools-content div.pools-item {
+    display: none;
+    /* background: #014c39; */
+    /* border: 2px solid black; */
+}
+#poolsview div.pools-content div.selected {
+    /*! background-color: #ffffff; */
+    border-color: #000;
+    /* border-radius: 5px 5px 0px 0px; */
+    display: block;
+    /*! height: 100%; */
+    /* border: 2px solid #000; */
+    /* border-spacing: 0px; */
+}
+#poolsview div.pools-content table.pools {
+    /* border-bottom: 1px solid #000000; */
+    /* border-spacing: 0; */
+    /* color: #000000; */
+    font-family: Helvetica,Arial,sans-serif;
+    width: 100%;
+    background: #000;
+}
+#poolsview div.pools-content table.pools td, th {
+    height: 20px;
+}
+#poolsview div.pools-content table.pools th {
+    background: #001900 none repeat scroll 0 0;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    color: #fff;
+}
+#poolsview div.pools-content table.pools td {
+    background: #666666 none repeat scroll 0 0;
+    border-bottom: 1px solid #666666;
+    text-align: center;
+    color: #fff;
+}
+
+#poolsview div.pools-matches {
+    height: 100%;
+    background-color: #666666;
+    margin: 0px;
+    padding: 5px;
+}
+#poolsview div.pools-content table.pools tr:nth-child(2n) td {
+    background: #555555 none repeat scroll 0 0;
+    color: #fff;
+}
+#poolsview div.pools-content table.pools tr:nth-child(2n+1) td {
+    background: #333333 none repeat scroll 0 0;
+}
+#poolsview div.pools-content table.pools tr.head td {
+    background: #000000 none repeat scroll 0 0;
+    color: #fff;
+    font: 12px/12px Verdana;
+    text-align: center;
+}
+#poolsview div.pools-content table.pools td.label {
+    background: #fafafa none repeat scroll 0 0;
+    font: 10px/12px Verdana;
+    height: 30px;
+    padding: 2px 4px;
+    text-align: center;
+}
+#poolsview div.pools-content table.pools td.num {
+    font-size: 11px;
+    text-align: left;
+}
+#poolsview div.pools-content table.pools td.home {
+    font: bold 11px/12px Verdana;
+    padding-left: 5px;
+    text-align: center;
+    width: 170px;
+}
+#poolsview div.pools-content table.pools td.away {
+    font: bold 11px/25px Verdana;
+    padding-right: 5px;
+    text-align: center;
+    /*! width: 30%; */
+    width: 170px;
+}
+#poolsview div.pools-content table.pools td.vs {
+    font: 11px/12px Verdana;
+    text-align: center;
+}
+#poolsview div.pools-content div.controls,
+#poolsview div.pools-content table.pools td.controls {
+    /* border-bottom: 1px solid #666666; */
+    /* border-top: 1px solid #666666; */
+    /* border-left: 1px solid #000000; */
+    /* border-right: 1px solid #000000; */
+    font: bold 11px/30px Verdana;
+    height: 30px;
+    width: 90px;
+}
+
+#poolsview div.pools-content table.cs-selections td.away ,
+#poolsview div.pools-content table.cs-selections td.home {
+    width:40%;
+}
+
+
+#poolsview div.pools-content table.cs-selections td.draw {
+    width:20%;
+}
+#poolsview div.pools-content table.uo-selections td.away, #poolsview div.pools-content table.uo-selections td.home {
+    width: 33%;
+}
+#poolsview div.pools-content table.uo-selections td.draw {
+    width: 34%;
+}
+#poolsview div.pools-content table.pools td.date {
+    font-size: 11px;
+    text-align: left;
+}
+#poolsview div.pools-content table.pools td div.pools-square {
+    cursor: pointer;
+    vertical-align: middle;
+}
+#poolsview div.pools-content table.pools td div.pools-square:hover {
+    background-color: #ffaf46;
+    background-image: linear-gradient(to bottom, #ffaf46, #e78404);
+}
+#poolsview div.pools-content table.pools td div.pools-square-checked {
+    background-color: #ffaf46;
+    background-image: linear-gradient(to bottom, #ffaf46, #e78404);
+}
+#poolsview div.pools-content table.pools td div.pools-square-checked:hover {
+}
+#poolsview div.pools-content div.pools-info {
+    color: #000000;
+    height: 50px;
+    padding-left: 10px;
+    width: 600px;
+}
+#poolsview div.pools-content div.pools-info div.pools-info-item {
+    border: 1px solid #333;
+    float: left;
+    width: 148px;
+}
+#poolsview div.pools-content div.pools-info div.pools-info-item div.label {
+    font: 12px/25px Verdana;
+    height: 25px;
+    text-align: center;
+}
+#poolsview div.pools-content div.pools-info div.pools-info-item div.value {
+    background-color: #b3d4ff;
+    color: #000;
+    font: bold 13px/25px Verdana;
+    height: 25px;
+    text-align: center;
+}
+#poolsview div.pools-content div.pools-controls{
+    height: 50px;
+    position: relative;
+    width: 100%;
+    /* border:0px #000000; */
+    /* padding: 0px 0px 0px 0px; */
+    text-decoration:none;
+    display: inline-block;
+    text-align: center;
+    /*! line-height: 50px; */
+    /* text-shadow: 2px 2px 0 rgba(240,240,240,0.3); */
+    font-weight:bold;
+    color: #000000;
+    /* background-color: #FCBE16; */
+    margin: 0px;
+    background-image: -webkit-gradient(linear, top, bottom, from(#CCCCCC), to(#AAAAAA));
+    background: #1f1f1f;
+    background: -moz-linear-gradient(top, #1f1f1f 0%, #4a4a4a 11%, #5c5b5c 22%, #4d4d4d 31%, #171717 47%, #050505 56%, #000000 78%, #000000 100%);
+    background: -webkit-gradient(top, bottom, color-stop(0%, #1f1f1f), color-stop(11%, #4a4a4a), color-stop(22%, #5c5b5c), color-stop(31%, #4d4d4d), color-stop(47%, #171717), color-stop(56%, #050505), color-stop(78%, #000000), color-stop(100%, #000000));
+    background: -webkit-linear-gradient(top, #1f1f1f 0%, #4a4a4a 11%, #5c5b5c 22%, #4d4d4d 31%, #171717 47%, #050505 56%, #000000 78%, #000000 100%);
+    background: -o-linear-gradient(top, #1f1f1f 0%, #4a4a4a 11%, #5c5b5c 22%, #4d4d4d 31%, #171717 47%, #050505 56%, #000000 78%, #000000 100%);
+    background: -ms-linear-gradient(top, #1f1f1f 0%, #4a4a4a 11%, #5c5b5c 22%, #4d4d4d 31%, #171717 47%, #050505 56%, #000000 78%, #000000 100%);
+    background: linear-gradient(to bottom, #1f1f1f 0%, #4a4a4a 11%, #5c5b5c 22%, #4d4d4d 31%, #171717 47%, #050505 56%, #000000 78%, #000000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f1f1f', endColorstr='#000000', GradientType=1 );
+}
+#poolsview div.pools-content div.pools-controls div.rows, #poolsview div.pools-content div.pools-controls div.cost {
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    float: left;
+    font: bold 12px/18px Verdana;
+    height: 36px;
+    /*! margin: 5px; */
+    text-align: center;
+    width: 100px;
+    color: #ffffff;
+    background:#000000;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+#poolsview div.pools-content div.pools-controls div.pools-coupon-info {
+    height: 40px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 200px;
+}
+#poolsview div.pools-content div.pools-controls div.pools-coupon-buttons {
+    height: 50px;
+}
+#poolsview div.pools-content div.pools-controls button {
+    cursor: pointer;
+    height: 40px;
+    width: 80px;
+}
+#poolsview div.jackpot {
+    font-size: 2.3em;
+    line-height:40px;
+    height: auto;
+}
+#poolsview .pools-jackpot {
+    /* display: inline-block; */
+    vertical-align: middle;
+    color:#ffffff;
+    text-align: center;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7d7e7d+0,0e0e0e+100;Black+3D */
+    background: #7d7e7d; /* Old browsers */
+    background: -moz-linear-gradient(top,  #7d7e7d 0%, #0e0e0e 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #7d7e7d 0%,#0e0e0e 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #7d7e7d 0%,#0e0e0e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
+}
+#poolsview .info-header {
+    background: #fceabb; /* Old browsers */
+    background: -moz-linear-gradient(top,  #fceabb 2%, #fccd4d 28%, #f8b500 49%, #f8b500 49%, #fccd4d 83%, #fbdf93 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #fceabb 2%,#fccd4d 28%,#f8b500 49%,#f8b500 49%,#fccd4d 83%,#fbdf93 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #fceabb 2%,#fccd4d 28%,#f8b500 49%,#f8b500 49%,#fccd4d 83%,#fbdf93 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', endColorstr='#fbdf93',GradientType=0 ); /* IE6-9 */
+    border: 0 solid #000000;
+    border-radius: 0;
+    color: #000000;
+    display: inline-block;
+    font-family: verdana,sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    height: 40px;
+    line-height: 34px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+#poolsview div.info-header div.flag2 {
+    top: 100px;
+}
+#poolsview div.buttons {
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+#poolsview .pools-button-unique,
+#poolsview .pools-button-favorite,
+#poolsview .pools-button-random,
+#poolsview .pools-button-clear{
+    background-color: #fcbe16;
+    background-image: linear-gradient(to bottom, #cccccc, #999999);
+    border: 2px solid #000000;
+    border-radius: 8px;
+    box-shadow: 0 18px 1px #dddddd inset;
+    color: #000000;
+    font-family: verdana,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 2px 2px 0 rgba(240, 240, 240, 0.3);
+}
+#poolsview .pools-button-favorite:hover,
+#poolsview .pools-button-random:hover,
+#poolsview .pools-button-clear:hover {
+    background-color: #fcbe16;
+    background-image: linear-gradient(to bottom, #cccccc, #999999);
+    border: 2px solid #666666;
+}
+
+
+#poolsview .pools-button-submit{
+
+height:34px;
+border:2px solid #000000;
+-webkit-box-shadow: #FCE6AB 0px 18px 1px inset;
+-moz-box-shadow: #FCE6AB 0px 18px 1px inset;
+ box-shadow: #FCE6AB 0px 18px 1px inset;
+ -webkit-border-radius: 14px;
+ -moz-border-radius: 14px;
+    border-radius: 8px;
+font-size:14px;
+font-family:verdana, sans-serif;
+ padding: 0px 0px 0px 0px;
+ text-decoration:none;
+    display: inline-block;
+text-align: center;
+    line-height: 34px;
+text-shadow: 2px 2px 0 rgba(240,240,240,0.3);
+font-weight:bold; color: #000000;
+ background-color: #FCBE16; background-image: -webkit-gradient(linear, left top, left bottom, from(#FCBE16), to(#9E770E));
+ background-image: -webkit-linear-gradient(top, #FCBE16, #9E770E);
+ background-image: -moz-linear-gradient(top, #FCBE16, #9E770E);
+ background-image: -ms-linear-gradient(top, #FCBE16, #9E770E);
+ background-image: -o-linear-gradient(top, #FCBE16, #9E770E);
+ background-image: linear-gradient(to bottom, #FCBE16, #9E770E);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#FCBE16, endColorstr=#9E770E);
+}
+
+#poolsview .pools-button-submit:hover{
+ border:2px solid #666666;
+ background-color: #FCBE16; background-image: -webkit-gradient(linear, left top, left bottom, from(#FCBE16), to(#9E770E));
+ background-image: -webkit-linear-gradient(top, #FCBE16, #9E770E);
+ background-image: -moz-linear-gradient(top, #FCBE16, #9E770E);
+ background-image: -ms-linear-gradient(top, #FCBE16, #9E770E);
+ background-image: -o-linear-gradient(top, #FCBE16, #9E770E);
+ background-image: linear-gradient(to bottom, #FCBE16, #9E770E);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#FCBE16, endColorstr=#9E770E);
+}
+#poolsview div.matchbox {
+    background: #333333 none repeat scroll 0 0;
+    color: #000;
+    font-family: "Lucida Grande",Tahoma,Arial,sans-serif;
+    font-size: 12px;
+    margin: 0 auto 3px 0;
+    text-align: justify;
+    border: 1px solid #888;
+}
+#poolsview div.matchbox div.box-header {
+    background: #333333 none repeat scroll 0 0;
+    /* border: 1px solid #888; */
+    line-height: 10px;
+    padding: 5px;
+    color: #FFF;
+}
+#poolsview table.pools div.box-header {
+    height: 100%;
+    line-height: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+    vertical-align: middle;
+}
+#poolsview table.pools div.box-header div.evt-title {
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 30px;
+    padding: 0 0 2px;
+}
+#poolsview div.matchbox div.box-header div.evt-title {
+    color: #fff;
+    font-weight: bold;
+    line-height: 15px;
+    text-align: center;
+}
+#poolsview div.matchbox div.box-header div.evt-pos {
+    background-color: black;
+    border-radius: 10px;
+    color: #fff;
+    float: left;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+    width: 15px;
+}
+#poolsview div.matchbox div.box-header div.evt-date {
+    line-height: 14px;
+}
+#poolsview table.pools div.box-header div.evt-pos {
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: #fff;
+    float: left;
+    height: 15px;
+    line-height: 15px;
+    margin-top: 10px;
+    width: 15px;
+}
+#poolsview div.box-header div.evt-pos {
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: #fff;
+    float: left;
+    height: 18px;
+    line-height: 18px;
+    width: 18px;
+}
+#poolsview div.box-header div.evt-date {
+    color: #fff;
+    float: right;
+    font-size: 12px;
+    height: auto;
+    line-height: 20px;
+    padding-left: 15px;
+}
+#poolsview div.twomatch {
+    text-align: justify;
+}
+#poolsview div.twomatch span.stretch {
+    display: inline-block;
+    font-size: 0;
+    line-height: 0;
+    width: 100%;
+}
+#poolsview div.matchbox table.cs-selections {
+    /* background: #ffffff none repeat scroll 0 0; */
+    line-height: 15px;
+    width: 100%;
+    border: 1px solid #888;
+}
+#poolsview div.matchbox table.cs-selections thead.head {
+    background: #444444 none repeat scroll 0 0;
+    color: #fff;
+    font-size: 11px;
+    font-weight: bold;
+}
+#poolsview div.matchbox table.cs-selections td {
+    border: 1px solid #888;
+}
+#poolsview div.matchbox table.cs-selections td.controls {
+    border: 1px solid #888;
+    vertical-align: top;
+}
+#poolsview div.matchbox table.uo-selections {
+    line-height: 15px;
+    width: 100%;
+}
+#poolsview div.matchbox table.uo-selections thead.head {
+    background: #333 none repeat scroll 0 0;
+    color: #fff;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+}
+#poolsview div.matchbox table.uo-selections td {
+    border: 1px solid #888;
+    border-spacing: 0;
+}
+#poolsview div.matchbox table.uo-selections td.controls {
+    vertical-align: top;
+}
+#poolsview div.matchbox div.selection-container {
+    text-align: center;
+    width: 100%;
+}
+#poolsview div.matchbox div.alternate {
+    background: #ffffff none repeat scroll 0 0;
+}
+#poolsview table.pools td.controls div.score-lbl, #poolsview div.matchbox div.score-lbl {
+    border-bottom: 1px solid #aaa;
+    float: left;
+    font-size: 11px;
+    font-weight: bold;
+    pointer-events: none;
+    vertical-align: middle;
+}
+#poolsview table.pools td.controls div.score-lbl {
+    color: #000;
+    width: 70px;
+}
+#poolsview div.matchbox div.correctscore div.score-lbl {
+    color: #222;
+    width: 45px;
+}
+
+#poolsview div.matchbox div.score-lbl {
+    color: #222;
+    width: 80px;
+}
+#poolsview table.pools div.ft1x2, #poolsview div.matchbox div.correctscore, #poolsview div.matchbox div.cftuo {
+    background: #efefee linear-gradient(to bottom, #ffffff, #d6d6d2) repeat-x scroll 0 0;
+    border: 1px solid #bfc0c2;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 13px;
+    text-align: center;
+    width: 55px;
+}
+#poolsview table.pools div.ft1x2 {
+    margin: 4px;
+    width: 70px;
+}
+#poolsview div.matchbox div.correctscore {
+    margin: 2px;
+    width: 45px;
+}
+#poolsview div.matchbox div.cftuo {
+    margin: 2px;
+    width: 80px;
+}
+#poolsview div.matchbox div.other-heading {
+    background: #dddddd none repeat scroll 0 0;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    font-size: 11px;
+    text-align: center;
+    width: 100%;
+}
+#poolsview div.matchbox div.cftuo, #poolsview div.matchbox div.correctscore {
+    cursor: pointer;
+}
+#poolsview div.pools-content table.uo-selections td div.pools-square:hover, #poolsview div.pools-content table.cs-selections td div.pools-square:hover {
+    background-color: #ffaf46;
+    background-image: linear-gradient(to bottom, #ffaf46, #e78404);
+}
+#poolsview div.pools-content table.uo-selections td div.pools-square-checked, #poolsview div.pools-content table.cs-selections td div.pools-square-checked {
+    background-color: #ffaf46;
+    background-image: linear-gradient(to bottom, #ffaf46, #e78404);
+}
+#poolsview div.pools-content table.uo-selections td div.pools-square-checked:hover, #poolsview div.pools-content table.cs-selections td div.pools-square-checked:hover {
+}
+#poolsview div.selection-container div.odds {
+    color: #000;
+    pointer-events: none;
+}
+#poolsview div.pools-content table.pools tr.head th.pos {
+    width: 5%;
+}
+#poolsview div.pools-content table.pools tr.head th.date {
+    width: 10%;
+}
+#poolsview div.pools-content table.pools tr.head th.match {
+    width: 45%;
+}
+#poolsview div.pools-content table.pools tr.head th.result {
+    width: 15%;
+}
+#poolsview div.pools-content div.results-select {
+    color: #fff;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+#poolsview div.pools-content select {
+    -moz-appearance: none;
+    background: #eee url("../../../images/plugins/pools/Cursor-Select.png") no-repeat scroll 96% center / 15% auto;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-size: 14px;
+    height: 32px;
+    margin: 10px;
+    padding: 5px 35px 5px 5px;
+    width: 200px;
+}
+#poolsview div.pools-content select option.options {
+}
+#poolsview div.pools-content div.results {
+    min-height: 280px;
+}
+#poolsview div.pools-content .poolname, #poolsview div.pools-content .pooldate {
+    display: inline-block;
+    font-family: verdana,sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px;
+}
+#dd-results {
+    background: #666666 none repeat scroll 0 0;
+    display: none;
+}
+#poolsview .result-text {
+    color: #f8f8ff;
+    font-family: Tahoma;
+    font-size: 18px;
+    left: 400px;
+    position: absolute;
+    top: 30px;
+}

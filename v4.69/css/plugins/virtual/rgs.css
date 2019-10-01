@@ -1,0 +1,55 @@
+#page.view-virtual #bd {
+    width: auto;
+    margin: 0px 0px 0px 0px;
+}
+div.view-virtual div.tab {
+    display: flex;
+    height: 40px;
+    margin: 0 auto;
+    padding-bottom: 3px;
+    width: 1055px;
+    position: relative;
+    text-align: center;
+    /* margin-left: 27px; */
+    margin: auto;
+    justify-content: space-around;
+}
+div.view-virtual div.tab button {
+    background: #000 none repeat scroll 0 0;
+    color: #fff;
+    cursor: pointer;
+    font-family: helvetica;
+    font-weight: 800;
+    height: 40px;
+    outline: medium none;
+    transition: all 0.3s ease 0s;
+    display: inline-block;
+    width: 220px;
+    margin: 0px auto;
+}
+div.view-virtual div.tab button:hover {
+    background-color: darkgoldenrod;
+}
+div.view-virtual div.tab button.active {
+    background-color: #ff8806;
+}
+div.view-virtual .tabcontent {
+    border-top: medium none;
+    height: 1200px;
+    margin: 0;
+    padding: 0;
+    width: 1055px;
+    background: transparent;
+    position: relative;
+    margin: auto;
+}
+div.view-virtual .tabcontent.selected {
+    background-color: #000;
+    color: #fff;
+    display: block;
+}
+#page.view-virtual div.content {
+    height:1200px;
+    width: 100%;
+    margin: auto;
+}

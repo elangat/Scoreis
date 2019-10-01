@@ -1,0 +1,461 @@
+#spinandwin {
+    position: relative;
+    width: 1200px;
+    height: 720px;
+    overflow: hidden;
+    margin: 4px auto;
+}
+#number {
+    position: absolute;
+    top: 10px;
+    left: 160px;
+    width: 45px;
+    height: 44px;
+    background: url('../../../images/plugins/spinwin/number-small.png') center center no-repeat;
+    font: bold 16px/32px Verdana;
+    color: #fff;
+    text-align: center;    
+}
+#wheel-container {
+    position: absolute;
+    left: 45px;
+    top: 55px;
+    width: 275px;
+    height: 275px;
+}
+
+#exitspinnwin {
+    color:white;
+    position: absolute;
+    left: 600px;
+    top: -30px;
+    height: 112px;
+    width: 125px;
+    color: #fff;
+    font-size: 0;
+    text-indent: -9999px;
+    cursor: pointer;
+     background: url("../../../images/kiosk/betomall/EXIT-10.png") center center no-repeat;
+    
+}
+
+#page.spinsize {
+    width: 1200px;
+    height: 900px;
+}
+
+#wheel-top {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 275px;
+    height: 275px;
+    background: url('../../../images/plugins/spinwin/wheeltop-small.png') center center no-repeat;
+}
+#wheel-center {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 275px;
+    height: 275px;
+    background: url('../../../images/plugins/spinwin/wheelcenter-small.png') center center no-repeat;
+}
+#wheel {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 275px;
+    height: 275px;
+    background: url('../../../images/plugins/spinwin/wheelnums-small.png') center center no-repeat;
+}
+#countdown { 
+    position: absolute;
+    top: 160px;
+    left: 390px;
+    width: 300px;
+    height: 90px;
+}
+div.message-box {
+    position: absolute;
+}
+div.message-box div.bg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    opacity: 0.3;
+}
+div.message-box  .label,
+div.message-box  .value {
+    position: absolute;
+    height: 30px;
+    width: 60%;
+    left: 12px;
+    font: bold 18px/30px Verdana;
+    color: #fff;
+    text-align: left;    
+    white-space: nowrap;
+    overflow: hidden;
+}
+#countdown .label-1 {
+    top: 5px;
+}
+#countdown .label-2 {
+    top: 32px;
+}
+#countdown .label-3 {
+    top: 59px;
+}
+div.message-box .value {
+    left: auto;
+    right: 12px;
+    width: 36%;
+    font: bold 22px/30px Verdana;
+    text-align: right;
+}
+#countdown #next-draw-id {
+    top: 5px;
+}
+#countdown #next-draw-time {
+    top: 32px;
+}
+#countdown #countdown-timer {
+    top: 59px;
+}
+
+#current-draw {
+    position: absolute;
+    top: 110px;
+    left: 390px;
+    width: 300px;
+    height: 40px;
+}
+#current-draw .label-1 {
+    top: 5px;
+}
+#current-draw #last-draw-id {
+    top: 5px;
+}
+
+#spinandwin div.bets-information {
+    display: none;
+}
+
+#game-logo {
+    position: absolute;
+    top: 0px;
+    left: 480px;
+    width: 350px;
+    height: 150px;
+    background: url('../../../images/plugins/spinwin/spinnwinlogo.png') center center no-repeat;
+}
+#company-logo {
+    position: absolute;
+    top: 75px;
+    left: 520px;
+    width: 287px;
+    height: 137px;
+    background: center center no-repeat;
+    overflow: hidden;
+}
+#statistics-column {
+    position: absolute;
+    left: 780px;
+    top: 15px;
+    width: 400px;
+    height: 700px;    
+}
+#statistics {
+    position: relative;
+}
+#payouts {
+    position: relative;
+}
+
+div.display-tables table {
+    width: 100%;
+    margin-top: 4px;
+    background-color: #0a3f88;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+div.display-tables table td {
+    padding: 1px 4px;
+    color: #000;
+    text-align: center;
+    border: 1px solid #888;
+    font: bold 12px Arial;
+}
+div.display-tables table td span.label {
+    color: #111;
+    font-size: 95%;
+}
+div.display-tables table td span.payout {
+    font-size: 110%;
+}
+div.display-tables table td.history {
+    font: bold 13px Verdana;
+}
+div.display-tables table th.header {
+    padding: 2px 4px;
+    color: #fff;
+    text-align: center;
+    font: bold 14px/20px Arial;
+    color: #000;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: linear-gradient(#b1ddfc, #1e557c);
+
+}
+div.display-tables table .subheader {
+    color: #000;
+    text-align: center;
+    font: bold 12px/20px Arial;
+    border: 1px solid #888;
+    background: linear-gradient(#808d97, #c5d4df);
+}
+div.display-tables table .color-black {
+    color: #fff;
+    background: #000;
+}
+div.display-tables table .color-red {
+    background: #DF0101;
+}
+div.display-tables table .color-green {
+    background: #01DF01;
+}
+div.display-tables table td.cc00 {
+    background-color: #83b7db;
+}
+div.display-tables table td.cc01 {
+    background-color: #6099c0;
+}
+div.display-tables table td.cc10 {
+    background-color: #6aaddc;
+}
+div.display-tables table td.cc11 {
+    background-color: #458dbe;
+}
+
+#sale-board {
+    position: absolute;
+    top: 340px;
+    left: 10px;
+    width: 731px;
+    height: 280px;
+    background: url('../../../images/plugins/spinwin/sale-board.png') center center no-repeat;
+    z-index: 1;
+}
+#sale-board #mask-layer,
+#sale-board #bet-chips,
+#sale-board #markbets,
+#sale-board #bet-layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#sale-board #mask-layer {
+    z-index: 1;
+}
+#sale-board #markbets {
+    z-index: 2;
+}
+#sale-board #bet-chips {
+    z-index: 3;
+}
+#sale-board #bet-layer {
+    z-index: 4;
+}
+#sale-board .selection {
+    position: absolute;
+    box-sizing: border-box;
+    z-index: 3;
+}
+#sale-board .french-selection {
+    position: absolute;
+    box-sizing: border-box;
+    z-index: 3;
+}
+#sale-board .number {
+    z-index: 2;
+}
+#sale-board #french-bet-layer .selection,
+#sale-board #bet-layer .selection {
+    cursor: pointer;
+}
+#sale-board #mask-layer {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+#sale-board #mask-layer.hidden {
+    visibility: hidden;
+}
+#sale-board #mask-layer .highlight {
+    background: #fff;
+}
+#sale-board #french {
+    position: absolute;
+    width: 599px;
+    height: 122px;
+    top: 154px;
+    left: 66px;
+    display: none;
+    z-index: 5;
+    background: #095e2d url('../../../images/plugins/spinwin/neihgborsboad.png') center center no-repeat;
+}
+#sale-board.french #french {
+    display: block;
+}
+#sale-board #french #french-bet-chips,
+#sale-board #french #french-markbets,
+#sale-board #french #french-bet-layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;    
+}
+#french-switch {
+    position: absolute;
+    top: 520px;
+    left: 10px;
+    width: 50px;
+    height: 86px;
+    cursor: pointer;
+    background: url('../../../images/plugins/spinwin/frenchswitch.png') center center no-repeat;
+    z-index: 2;
+}
+
+#options {
+    position: absolute;
+    top: 630px;
+    left: 75px;
+    width: 631px;
+}
+#options div.option {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 60px;
+    background: center top no-repeat;
+    color: #000;
+    text-align: center;    
+    cursor: pointer;
+    box-sizing: border-box;
+}
+#options div.chip {
+    font: 700 18px/50px Tahoma;    
+}
+#options div.chip-chrs-4,
+#options div.chip-chrs-5 {
+    font: 700 14px/50px Tahoma;        
+}
+#options div.chip-chrs-6,
+#options div.chip-chrs-7 {
+    font: 700 12px/50px Tahoma;    
+}
+#options div.chip-chrs-8,
+#options div.chip-chrs-9 {
+    font: 700 10px/50px Tahoma;
+}
+#options div.option.selected {
+    border-bottom: 4px solid #ffff00;
+}
+#options div.chip-1 {
+    background-image: url('../../../images/plugins/spinwin/chip-1.png');
+}
+#options div.chip-2 {
+    left: 60px;
+    background-image: url('../../../images/plugins/spinwin/chip-2.png');
+}
+#options div.chip-3 {
+    left: 120px;
+    background-image: url('../../../images/plugins/spinwin/chip-3.png');
+}
+#options div.chip-4 {
+    left: 180px;
+    background-image: url('../../../images/plugins/spinwin/chip-4.png');
+}
+#options div.chip-5 {
+    left: 240px;
+    background-image: url('../../../images/plugins/spinwin/chip-5.png');
+}
+#options div.undo {
+    left: 300px;
+    background-image: url('../../../images/plugins/spinwin/undo-on.png');    
+}
+#options div.undo-off {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    background-image: url('../../../images/plugins/spinwin/undo-off.png');    
+}
+#options div.clear {
+    left: 360px;
+    background-image: url('../../../images/plugins/spinwin/clear.png');    
+}
+#options div.stake {
+    left: 420px;
+    height: 50px;
+    width: 100px;
+    border: 2px solid #fff;
+    color: #fff;
+    font: 700 14px/50px Tahoma;
+}
+#options div.place {
+    display: none;
+    left: 530px;
+    width: 75px;
+    height: 50px;
+    color: #000;
+    font: 700 14px/50px Tahoma;
+    background-image: url('../../../images/plugins/spinwin/placebet.png');    
+}
+#options div.place.place-on {
+    display: block;
+}
+
+#french-bet-chips div.chip,
+#bet-chips div.chip {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    background: center center no-repeat;
+}
+#french-bet-chips div.chip-1,
+#bet-chips div.chip-1 {
+    background-image: url('../../../images/plugins/spinwin/chip-small-1.png');
+}
+#french-bet-chips div.chip-2,
+#bet-chips div.chip-2 {
+    left: 60px;
+    background-image: url('../../../images/plugins/spinwin/chip-small-2.png');
+}
+#french-bet-chips div.chip-3,
+#bet-chips div.chip-3 {
+    left: 120px;
+    background-image: url('../../../images/plugins/spinwin/chip-small-3.png');
+}
+#french-bet-chips div.chip-4,
+#bet-chips div.chip-4 {
+    left: 180px;
+    background-image: url('../../../images/plugins/spinwin/chip-small-4.png');
+}
+#french-bet-chips div.chip-5,
+#bet-chips div.chip-5 {
+    left: 240px;
+    background-image: url('../../../images/plugins/spinwin/chip-small-5.png');
+}
+#french-markbets div.betmark,
+#markbets div.betmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    background: #ffff00 center center no-repeat;
+    opacity: 0.5;
+}
+

@@ -1,0 +1,552 @@
+#bd {
+    width: 1050px;
+    margin: 0 50px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+div.page-keno {
+    position: relative;
+    margin-left: 4px;
+    width: 100%;
+    height: 614px;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    padding: 1px;
+    color: #fff;
+    /*font-family: Verdana, Geneva, sans-serif;*/
+}
+div.page-keno div {
+    box-sizing: border-box;
+}
+div.page-keno div.main-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 38px;
+    /*background-color: #616161;*/
+    color: #fff;
+    font: bold 13px/38px Verdana;
+    box-shadow: indianred;
+}
+div.page-keno div.hd-gradient {
+    background: #404040;
+    background-image: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.2) 0%,
+        rgba(255, 255, 255, 0.13) 10%,
+        rgba(255, 255, 255, 0) 50.5%,
+        rgba(0, 0, 0, 0.07) 50.6%,
+        rgba(0, 0, 0, 0) 100%
+    );
+}
+div.page-keno div.keno-jackpot {
+    position: absolute;
+    top: 0;
+    right: 36%;
+    width: 256px;
+    height: 38px;
+    font: bold 18px/38px sans-serif;
+    text-align:center;
+}
+div.page-keno div.keno-jackpot.dd-gold{
+    color:#3c2e09;
+    text-shadow:0 1px #fe98;
+    border-radius:4px;
+    box-sizing: border-box;
+    border: 1px solid #ffa3;
+    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+    radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+    box-shadow:0 0 0 1px #0003, 0 2px 2px #0003;
+}
+div.page-keno div.main-header div.new-game {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 31%;
+    padding-left: 20px;
+}
+div.page-keno div.main-header div.mytickets {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 36%;
+    padding-right: 30px;
+    text-align: right;
+}
+div.page-keno div.keno-draw-numbers {
+    position: absolute;
+    padding-left: 6px;
+    top: 38px;
+    left: 0;
+    height: 50px;
+    width: 64%;
+    background-color: #2b2b2b;
+}
+div.page-keno div.keno-draw-numbers div.draw-number {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    float: left;
+    margin: 10px 0px;
+    text-align: center;
+    background: rgb(43, 43, 43);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+    font: 10px/30px Verdana;
+    color: #a1a1a1;
+}
+div.page-keno  div.keno-draw-numbers div.draw-number.dropped{
+    background-color: #1571de;
+    color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8), 0 -4px 10px rgba(0, 0, 0, 0.3) inset, 0 -4px 1px 6px rgba(0, 0, 120, 0.15) inset;
+    font: bold 12px/30px Verdana;
+    transition: 0.75s;
+}
+div.page-keno div.draw-board {
+    position: absolute;
+    top: 88px;
+    left: 0;
+    width: 64%;
+    height: 444px;
+    padding: 12px;
+    background: #212121;
+    box-shadow: inset 0 4px 4px -4px #0008;
+}
+div.page-keno div.number {
+    width: 34px;
+    height: 34px;
+    border-radius: 34px;
+    float: left;
+    margin: 6px 12px;
+    text-align: center;
+    background : linear-gradient(0deg, rgba(93, 93, 93, 1) 0%, rgba(71, 71, 71, 1) 100%);
+    border-style : Solid;
+    border-color: #ffff00;
+    border-width: 0px;
+    font: bold 12px/34px Verdana;
+}
+div.page-keno div.number:active,
+div.page-keno div.click-btn:active,
+div.page-keno div.bet-bar div.submit-draws div.draw-mul div:active{
+    background: linear-gradient(0deg, #757575 0%, #424242 100%);
+}
+div.page-keno div.draw-board div.number {
+    cursor: pointer;
+    background-color: transparent;
+    color: #fff;
+    transition: 0.25s;
+}
+div.page-keno div.draw-board div.number.selected {
+    border-width : 2px;
+    border-color : orange;
+    line-height: 30px;
+    transition: 0.25s !important;
+}
+div.page-keno div.draw-board div.number.dropped {
+    background : #1571de;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8), 0 -4px 10px rgba(0, 0, 0, 0.3) inset, 0 -4px 1px 6px rgba(0, 0, 120, 0.15) inset;
+    transition: 0.75s;
+}
+div.page-keno div.click-btn {
+    background: #323232;
+    box-shadow: inset -1px -1px 0px rgba(0, 0, 0, 0.2);
+    border-color : #000;
+    cursor: pointer;
+}
+div.page-keno div.draw-markets{
+    position: absolute;
+    top: 485px;
+    left: 0;
+    height: 40px;
+    line-height: 36px;
+    width: 64%;
+    padding: 0 30px; 
+    text-align: center;
+    font: bold 12px/40px Verdana;
+}
+div.page-keno div.draw-markets div.market-num{
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    width: 40px;
+    border-radius: 2px;
+    margin: 1px;
+}
+div.page-keno div.draw-markets div.market-num.selected,
+div.page-keno div.bet-bar div.submit-draws div.keno-all-in.selected{
+    background : orange;
+    color: #000;
+}  
+div.page-keno div.mytickets-btns {
+    position: absolute;
+    top: 38px;
+    right: 0;
+    height: 50px;
+    width: 36%;
+    padding: 0 10px;
+    background-color: #2b2b2b;
+}
+div.page-keno div.mytickets-btns div.switch-btn {
+    float: left;
+    width: 30%;
+    height: 100%;
+    text-align: left;
+}
+div.page-keno div.mytickets-btns div.switch-btn div.switch-text {
+    position: absolute;
+    left: 0;
+    width: 30%;
+    text-align: center;
+    bottom: 8px;
+    font-size: 10px;
+}
+div.page-keno div.mytickets-btn {
+    float: left;
+    width: 35%;
+    height: 30px;
+    background-color: #424242;
+    color: #fff;
+    text-align: center;
+    margin: 10px 0;
+    cursor: pointer;
+    border : 1px solid #000;
+    box-shadow: inset 0 1px rgba(255,255,255,0.1);
+    font: normal 12px/25px Verdana;
+    border-radius: 4px;
+}
+div.page-keno div.mytickets-btns div.replay-bet {
+    border-radius: 4px 0 0 4px;
+}
+div.page-keno div.mytickets-btns div.clear-settled {
+    border-radius: 0 4px 4px 0;
+}
+div.page-keno div.tickets {
+    position: absolute;
+    top: 88px;
+    right: 0;
+    height: 444px;
+    width: 36%;
+    background: #181818;
+}
+div.page-keno div.tickets div.keno-ticket-list {
+    height: 100%;
+    overflow: auto;
+}
+div.page-keno div.tickets div.ticket-row {
+    height: 68px;
+    width: 96%;
+    margin: 5px auto;
+    text-align: center;
+    clear: both;
+    background-color: #424242;
+    border-radius: 4px;
+    color: #fff;
+}
+div.page-keno div.tickets div.ticket-row div.ticket-header  {
+    width: 100%;
+    font: 12px/20px Verdana;
+    height: 20px;
+    border-radius: 4px 4px 0 0;
+    background-color: #616161;
+}
+div.page-keno div.tickets div.ticket-row.lost div.ticket-header {
+    background-color: #f44;
+}
+div.page-keno div.tickets div.ticket-row.won div.ticket-header  {
+    background-color: #39B54A;
+}
+div.page-keno div.tickets div.ticket-row div {
+    height: 28px;
+    float: left;    
+}
+div.page-keno div.tickets div.ticket-row div.ticket-clear {
+    width: 10%;
+    height: 100%;
+    float: right;
+    text-align: center;
+    font: bold 12px/20px Verdana;
+    color: #fff;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.16);
+    border-radius: 0 4px 0 0;
+}
+div.page-keno div.tickets div.ticket-row div.ticket-replay {
+    width: 10%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    font: bold 12px/20px Verdana;
+    color: #fff;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.16);
+    border-radius:  4px 0 0 0;
+}
+div.page-keno div.tickets div.ticket-row div.ticket-selections {
+    text-indent: 3px;
+    width: 80%;
+    height: 100%;
+    overflow: hidden;
+}
+div.page-keno div.tickets div.ticket-row div.ticket-selections span.ticket-numbers{
+    float: left;
+    padding-left: 5px;
+}
+div.page-keno div.tickets div.ticket-row div.ticket-selections span.ticket-draws{
+    float: right;
+    padding-right: 5px;
+}
+div.page-keno div.tickets div.ticket-row div.ticket-numbers{
+    width: 100%;
+    text-align: center;
+    font: 12px/28px Verdana;
+    height: 28px;
+}
+div.page-keno div.tickets div.ticket-row div.ticket-numbers span.number{
+    display: inline-block;
+    padding: 2px 4px;
+    height: 28px;
+    line-height: 28px;
+    margin-right: 1px;
+    box-sizing: border-box;
+}
+div.page-keno div.tickets div.ticket-row div.ticket-numbers span.number-hit {
+    color: #0f0;
+}
+div.page-keno div.tickets div.ticket-row div.ticket-stake-row{
+    width: 100%;
+    height: 20px;
+    font: 12px/20px Verdana;
+    border-top: 1px solid #888;
+}
+div.page-keno div.tickets div.ticket-row div.ticket-stake-row div.ticket-stake{
+    width: 50%;
+    height: 100%;
+    text-align: left;
+    padding-left: 10px
+}
+div.page-keno div.tickets div.ticket-row div.ticket-stake-row div.ticket-payout {
+    width: 50%;
+    height: 100%;
+    text-align: right;
+    padding-right: 10px
+}
+div.page-keno div.bet-bar{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 80px;
+    background-color: #5d5d5d;
+    color: #fff;
+    text-align: center;
+}
+div.page-keno div.bet-bar div.keno-info{
+    float: left;
+    width: 32%;
+    height: 60px;
+    margin: 10px 8px;
+    background-color: #323232;
+    border-radius:  4px;
+    font: 11px/20px Verdana;
+}
+div.page-keno div.bet-bar div.keno-info div.info-title{
+    width: 100%;
+    height : 20px;
+    font: 12px/20px Verdana;
+    background-color: #212121;
+    text-align: center;
+}
+div.page-keno div.bet-bar div.keno-info div.next-draw-info{
+    float: left;
+    width: 35%;
+    height: 100%;
+    font: 11px/20px Verdana;
+    border-right: 1px solid #000;
+}
+div.page-keno div.bet-bar div.keno-info div.myticket-info{
+    float: right;
+    width: 65%;
+    height: 100%;
+    font: 10px/20px Verdana;
+}
+div.page-keno div.keno-info div.draft-draws{
+    float: left;
+    height: 100%;
+    width: 70%;
+    overflow: hidden;
+}
+div.page-keno div.keno-info div.draft-market{
+    float: right;
+    height: 100%;
+    width: 30%;
+    overflow: hidden;
+    border-left: 1px solid #000;
+}
+div.page-keno div.bet-bar div.keno-info div.draft-numbers{
+    height: 20px;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    font: 9px/20px Verdana;
+}
+div.page-keno div.bet-bar div.keno-info span.helper{
+    height: 100%;
+    width: 100%;
+    font: 10px/20px Verdana;
+    color: #ccc;
+}
+div.page-keno div.bet-bar div.keno-info div.draft-numbers span.number {
+    display: inline-block;
+    height: 100%;
+    width: 12px;
+    margin: 0 2px;
+    text-align: center;
+    font: 9px/20px Verdana;
+}
+div.page-keno div.bet-bar div.stake-info{
+    float: left;
+    width: 30%;
+    height: 60px;
+    margin: 10px 8px;
+    background-color: #525252;
+    border-radius: 6px;
+}
+div.page-keno div.bet-bar div.stake-info div.stake-btn {
+    float: left;
+    height: 30px;
+    width: 14.25%;
+    border-color : #000;
+    color: #fff;
+    font: 12px/30px Verdana;
+    cursor: pointer;
+}
+#keno-ticket-stake {
+    float: left;
+    height: 28px;
+    width: 24.8%;
+    padding-right: 3%;
+    border-radius: 0 4px 0 0;
+    border: 1px solid #323232;
+    box-shadow: inset 0 4px 12px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(255, 255, 255, 0.1);
+    text-align: right;
+    background : #181818;
+    border-color : #000;
+    color: #fff;
+    font: italic 14px/30px Verdana;
+}
+div.page-keno div.bet-bar div.submit-draws{
+    float: left;
+    width: 33%;
+    height: 60px;
+    margin: 10px 4px;
+    background-color: #525252;
+    border-radius: 4px;
+}
+div.page-keno div.bet-bar div.submit-draws div.keno-all-in{
+    float: left;
+    width: 15%;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 4px 0 0 4px;
+}
+div.page-keno div.bet-bar div.submit-draws div.draw-mul {
+    float: left;
+    width: 15%;
+    height: 60px;
+}
+div.page-keno div.bet-bar div.submit-draws div.draw-mul div {
+    height: 30px;
+    width: 100%;
+    font: bold 14px/32px Verdana;
+    cursor: pointer;
+    box-shadow:  inset -1px -1px 0px rgba(0, 0, 0, 0.2);
+}
+div.page-keno div.bet-bar div.submit-draws div.draw-show {
+    float: left;
+    height: 60px;
+}
+div.page-keno div.bet-bar div.submit-draws div.draw-show div.draws-num {
+    height: 40px;
+    width: 100%;
+    font: 22px/45px Verdana;
+}
+div.page-keno div.bet-bar div.submit-draws div.draw-show div.draws-text {
+    height: 20px;
+    width: 100%;
+    font: 8px/10px Verdana;
+}  
+div.page-keno div.bet-bar div.submit-draws div.place-bets {
+    display: block;
+    float: left;
+    height: 60px;
+    background : #39B54A;
+    box-shadow : 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 0 4px 4px 0;
+    font: 14px/24px Verdana;
+    padding: 6px 0;
+    cursor: pointer;
+}
+div.page-keno div.bet-bar div.submit-draws div.place-bets div {
+    width: 100%;
+    height: 24px;
+    text-align: center;
+}
+div.page-keno div.bet-bar div.submit-draws div.place-bets div.submit-stake {
+    height: 24px;
+    font: 10px/24px Verdana;
+    width: 100%;
+    border-bottom-right-radius: 4px;
+    overflow: hidden;
+    text-align: center;
+}
+div.page-keno .switch {
+    position: absolute;
+    left: 38px;
+    top: 16px;
+    width: 25px;
+    height: 8px;
+}
+div.page-keno .switch input {display:none;}
+div.page-keno .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: -2px;
+  right: -4px;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+div.page-keno .slider:before {
+  position: absolute;
+  content: "";
+  height: 10px;
+  width: 10px;
+  left: -2px;
+  bottom: -1px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+div.page-keno input:checked + .slider {
+  background-color: #2196F3;
+}
+div.page-keno input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+div.page-keno .slider.round {
+  border-radius: 10px;
+}
+div.page-keno .slider.round:before {
+  border-radius: 50%;
+}

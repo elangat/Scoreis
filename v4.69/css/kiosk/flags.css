@@ -1,0 +1,275 @@
+div.country div.flag {
+    position: absolute;
+    width: 53px;
+    height: 36px;
+    background: url('../../images/kiosk/league_flags.png') -5000px -5000px no-repeat;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #333;
+    border-right: 1px solid #333;
+    top: 0;
+    left: 0;
+}
+
+div.country div.flag-england-amateur,
+div.country div.flag-england   {background-position: -3px   -272px;} /* England */
+div.country div.flag-norway   {background-position: -867px -612px;} /* Norway */
+div.country div.flag-france   {background-position: -651px -272px;} /* France */
+div.country div.flag-denmark  {background-position: -507px -204px;} /* Denmark */
+div.country div.flag-sweden {background-position: -795px -816px;} /* Sweden */
+div.country div.flag-iceland  {background-position: -939px -340px;} /* Iceland */
+div.country div.flag-hungary  {background-position: -795px -340px;} /* Hungary */
+div.country div.flag-mexico  {background-position: -651px -544px;} /* Mexico */
+div.country div.flag-brazil  {background-position: -795px  -68px;} /* Brazil */
+div.country div.flag-croatia  {background-position: -219px -204px;} /* Croatia */
+div.country div.flag-austria  {background-position: -795px    0px;} /* Austria */
+div.country div.flag-czech-republic  {background-position: -435px -204px;} /* Czech Rep */
+div.country div.flag-finland  {background-position: -579px -272px;} /* Finland */
+div.country div.flag-peru  {background-position: -507px -681px;} /* Peru */
+div.country div.flag-russia  {background-position: -3px   -749px;} /* Russia */
+div.country div.flag-scotland  {background-position: -651px -749px;} /* Scotland */
+div.country div.flag-slovakia  {background-position: -75px  -817px;} /* Slovakia */
+div.country div.flag-slovenia  {background-position: -147px -817px;} /* Slovenia */
+div.country div.flag-switzerland  {background-position: -867px -816px;} /* Switzerland */
+div.country div.flag-usa  {background-position: -74px  -955px;} /* USA */
+div.country div.flag-germany  {background-position: -939px -272px;} /* Germany */
+div.country div.flag-italy  {background-position: -435px -408px;} /* Italy */
+div.country div.flag-spain  {background-position: -435px -816px;} /* Spain */
+div.country div.flag-belgium  {background-position: -291px  -68px;} /* Belgium */
+div.country div.flag-australia  {background-position: -723px    0px;} /* Australia */
+div.country div.flag-netherlands  {background-position: -507px -612px;} /* Netherlands */
+div.country div.flag-portugal  {background-position: -723px -680px;} /* Portugal */
+div.country div.flag-singapore  {background-position: -3px   -816px;} /* Singapore */
+div.country div.flag-turkey {background-position: -578px -883px;} /* Turkey */
+div.country div.flag-poland  {background-position: -651px -681px;} /* Poland */
+div.country div.flag-argentina  {background-position: -507px    0px;} /* Argentina */
+div.country div.flag-chile  {background-position: -651px -136px;} /* Chile */
+div.country div.flag-ireland  {background-position: -291px -408px;} /* Ireland */
+div.country div.flag-japan  {background-position: -579px -408px;} /* Japan */
+div.country div.flag-uruguay  {background-position: -146px -956px;} /* Uruguay */
+div.country div.flag-israel  {background-position: -363px -408px;} /* Israel */
+div.country div.flag-greece  {background-position: -147px -340px;} /* Greece */
+div.country div.flag-romania  {background-position: -939px -680px;} /* Romania */
+div.country div.flag-bulgaria  {background-position: -939px  -68px;} /* Bulgaria */
+div.country div.flag-ukraine  {background-position: -866px -883px;} /* Ukraine */
+div.country div.flag-belarus  {background-position: -219px  -68px;} /* Belarus */
+div.country div.flag-estonia  {background-position: -219px -272px;} /* Estonia */
+div.country div.flag-china  {background-position: -723px -136px;} /* China */
+div.country div.flag-cyprus {background-position: -363px -204px;} /* Cyprus */
+div.country div.flag-northern-ireland {background-position: -939px -612px;} /* Northern Ireland */
+div.country div.flag-wales {background-position: -578px -955px;} /* Wales */
+div.country div.flag-malta {background-position: -363px -544px;} /* Malta */
+div.country div.flag-serbia {background-position: -795px -748px;} /* Serbia */
+div.country div.flag-bosnia-herzegovina {background-position: -651px  -68px;} /* Bosnia & Herzegovina */
+div.country div.flag-macedonia {background-position: -939px -476px;} /* FYROM */
+div.country div.flag-lithuania {background-position: -723px -476px;} /* Lithuania */
+div.country div.flag-latvia {background-position: -291px -476px;} /* Latvia */
+div.country div.flag-ecuador {background-position: -795px -204px;} /* Ecuador */
+div.country div.flag-luxembourg {background-position: -723px -476px;} /* Luxembourg */
+div.country div.flag-faroe-islands {background-position: -435px -272px;} /* Faroe Islands */
+div.country div.flag-albania {background-position: -75px     0px;} /* Albania */
+div.country div.flag-georgia {background-position: -867px -272px;} /* Georgia */
+div.country div.flag-colombia {background-position: -795px -136px;} /* Colombia */
+div.country div.flag-kazakhstan {background-position: -723px -408px;} /* Kazakhstan */
+div.country div.flag-moldova {background-position: -795px -544px;} /* Moldova */
+div.country div.flag-paraguay {background-position: -435px -680px;} /* Paraguay */
+div.country div.flag-venezuela {background-position: -435px -955px;} /* Venezuela */
+div.country div.flag-costa-rica {background-position: -75px  -204px;} /* Costa Rica */
+div.country div.flag-south-korea {background-position: -3px   -476px;} /* South Korea */
+div.country div.flag-armenia {background-position: -579px    0px;} /* Armenia */
+div.country div.flag-azerbaijan {background-position: -867px    0px;} /* Azerbaijan */
+div.country div.flag-iran {background-position: -147px -408px;} /* Iran */
+div.country div.flag-algeria {background-position: -147px    0px;} /* Algeria */
+div.country div.flag-saudi-arabia {background-position: -579px -748px;} /* Saudi Arabia */
+div.country div.flag-south-africa {background-position: -363px -816px;} /* South Africa */
+div.country div.flag-jordan {background-position: -651px -408px;} /* Jordan */
+div.country div.flag-hong-kong {background-position: -867px -340px;} /* Hong Kong */
+div.country div.flag-qatar {background-position: -867px -681px;} /* Qatar */
+div.country div.flag-guatemala {background-position: -363px -340px;} /* Guatemala */
+div.country div.flag-vietnam {background-position: -506px -955px;} /* Vietnam */
+div.country div.flag-el-salvador {background-position: -939px -204px;} /* El Salvador */
+div.country div.flag-tunisia {background-position: -506px -883px;} /* Tunisia */
+div.country div.flag-bolivia {background-position: -579px  -68px;} /* Bolivia */
+div.country div.flag-uzbekistan {background-position: -218px -955px;} /* Uzbekistan */
+div.country div.flag-montenegro {background-position: -3px   -612px;} /* Montenegro */
+div.country div.flag-san-marino {background-position: -435px -749px;} /* San Marino */
+div.country div.flag-canada {background-position: -291px -136px;} /* Canada */
+div.country div.flag-cameroon {background-position: -219px -136px;} /* Cameroon */
+div.country div.flag-honduras {background-position: -723px -340px;} /* Honduras */
+div.country div.flag-thailand {background-position: -146px -883px;} /* Tailand */
+div.country div.flag-pakistan {background-position: -75px  -681px;} /* Pakistan */
+
+div.country div.flag-world,
+div.country div.flag-international,
+div.country div.flag-international-clubs,
+div.country div.flag-international-youth {
+    background: url('../../images/kiosk/world.png') center center no-repeat;
+}
+div.country div.flag-28 {
+    background: url('../../images/kiosk/sport_cat_28.png') center center no-repeat;
+}
+div.country div.flag-36 {
+    background: url('../../images/kiosk/sport_cat_36.png') center center no-repeat;
+}
+div.country div.flag-50 {
+    background: url('../../images/kiosk/sport_cat_50.png') center center no-repeat;
+}
+div.country div.flag-84 {
+    background: url('../../images/kiosk/sport_cat_84.png') center center no-repeat;
+}
+div.country div.flag-150 {
+    background: url('../../images/kiosk/sport_cat_150.png') center center no-repeat;
+}
+div.country div.flag-156 {
+    background: url('../../images/kiosk/sport_cat_156.png') center center no-repeat;
+}
+div.country div.flag-198 {
+    background: url('../../images/kiosk/sport_cat_198.png') center center no-repeat;
+}
+div.country div.flag-3 {
+    background: url('../../images/kiosk/sport_cat_3.png') center center no-repeat;
+}
+div.country div.flag-6{
+    background: url('../../images/kiosk/sport_cat_6.png') center center no-repeat;
+}
+div.country div.flag-72 {
+    background: url('../../images/kiosk/sport_cat_72.png') center center no-repeat;
+}
+div.country div.flag-76 {
+    background: url('../../images/kiosk/sport_cat_76.png') center center no-repeat;
+}
+div.country div.flag-213 {
+    background: url('../../images/kiosk/sport_cat_213.png') center center no-repeat;
+}
+div.country div.flag-785 {
+    background: url('../../images/kiosk/sport_cat_785.png') center center no-repeat;
+}
+div.country div.flag-82 {
+    background: url('../../images/kiosk/sport_cat_82.png') center center no-repeat;
+}
+div.country div.flag-83 {
+    background: url('../../images/kiosk/sport_cat_83.png') center center no-repeat;
+}
+
+div.country div.flag-formula-1 {
+    background: url('../../images/kiosk/formula1.png') center center no-repeat;
+}
+div.country div.flag-EU,
+div.country div.flag-EURV {
+    background: url('../../images/kiosk/sport_eurovision2018.png') center center no-repeat;
+}
+div.country div.flag-worldcup {
+    background: url('../../images/kiosk/worldcup.png') center center no-repeat;
+}
+div.country div.flag-europe {
+    background: url('../../images/kiosk/sport_europe.png') center center no-repeat;
+}
+
+#doc .flag-bg {
+    width: 51px;
+    padding: 0;
+    text-align: center;
+    background: url('../../images/kiosk/countries/bg/world.png') center center no-repeat;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+#doc .flag-bg-england-amateur,
+#doc .flag-bg-england { background-image: url('../../images/kiosk/countries/bg/england.png'); }
+#doc .flag-bg-norway { background-image: url('../../images/kiosk/countries/bg/norway.png'); }
+#doc .flag-bg-france { background-image: url('../../images/kiosk/countries/bg/france.png'); }
+#doc .flag-bg-denmark { background-image: url('../../images/kiosk/countries/bg/denmark.png'); }
+#doc .flag-bg-sweden { background-image: url('../../images/kiosk/countries/bg/sweden.png'); }
+#doc .flag-bg-iceland { background-image: url('../../images/kiosk/countries/bg/iceland.png'); }
+#doc .flag-bg-hungary { background-image: url('../../images/kiosk/countries/bg/hungary.png'); }
+#doc .flag-bg-mexico { background-image: url('../../images/kiosk/countries/bg/mexico.png'); }
+#doc .flag-bg-brazil { background-image: url('../../images/kiosk/countries/bg/brazil.png'); }
+#doc .flag-bg-croatia { background-image: url('../../images/kiosk/countries/bg/croatia.png'); }
+#doc .flag-bg-austria { background-image: url('../../images/kiosk/countries/bg/austria.png'); }
+#doc .flag-bg-czech { background-image: url('../../images/kiosk/countries/bg/czech.png'); }
+#doc .flag-bg-finland { background-image: url('../../images/kiosk/countries/bg/finland.png'); }
+#doc .flag-bg-peru { background-image: url('../../images/kiosk/countries/bg/peru.png'); }
+#doc .flag-bg-russia { background-image: url('../../images/kiosk/countries/bg/russia.png'); }
+#doc .flag-bg-scotland { background-image: url('../../images/kiosk/countries/bg/scotland.png'); }
+#doc .flag-bg-slovakia { background-image: url('../../images/kiosk/countries/bg/slovakia.png'); }
+#doc .flag-bg-slovenia { background-image: url('../../images/kiosk/countries/bg/slovenia.png'); }
+#doc .flag-bg-switzerland { background-image: url('../../images/kiosk/countries/bg/switzerland.png'); }
+#doc .flag-bg-usa { background-image: url('../../images/kiosk/countries/bg/usa.png'); }
+#doc .flag-bg-germany { background-image: url('../../images/kiosk/countries/bg/germany.png'); }
+#doc .flag-bg-italy { background-image: url('../../images/kiosk/countries/bg/italy.png'); }
+#doc .flag-bg-spain { background-image: url('../../images/kiosk/countries/bg/spain.png'); }
+#doc .flag-bg-belgium { background-image: url('../../images/kiosk/countries/bg/belgium.png'); }
+#doc .flag-bg-australia { background-image: url('../../images/kiosk/countries/bg/australia.png'); }
+#doc .flag-bg-netherlands { background-image: url('../../images/kiosk/countries/bg/netherlands.png'); }
+#doc .flag-bg-portugal { background-image: url('../../images/kiosk/countries/bg/portugal.png'); }
+#doc .flag-bg-singapore { background-image: url('../../images/kiosk/countries/bg/singapore.png'); }
+#doc .flag-bg-turkey { background-image: url('../../images/kiosk/countries/bg/turkey.png'); }
+#doc .flag-bg-poland { background-image: url('../../images/kiosk/countries/bg/poland.png'); }
+#doc .flag-bg-argentina { background-image: url('../../images/kiosk/countries/bg/argentina.png'); }
+#doc .flag-bg-chile { background-image: url('../../images/kiosk/countries/bg/chile.png'); }
+#doc .flag-bg-ireland { background-image: url('../../images/kiosk/countries/bg/ireland.png'); }
+#doc .flag-bg-japan { background-image: url('../../images/kiosk/countries/bg/japan.png'); }
+#doc .flag-bg-uruguay { background-image: url('../../images/kiosk/countries/bg/uruguay.png'); }
+#doc .flag-bg-israel { background-image: url('../../images/kiosk/countries/bg/israel.png'); }
+#doc .flag-bg-greece { background-image: url('../../images/kiosk/countries/bg/greece.png'); }
+#doc .flag-bg-romania { background-image: url('../../images/kiosk/countries/bg/romania.png'); }
+#doc .flag-bg-bulgaria { background-image: url('../../images/kiosk/countries/bg/bulgaria.png'); }
+#doc .flag-bg-ukraine { background-image: url('../../images/kiosk/countries/bg/ukraine.png'); }
+#doc .flag-bg-belarus { background-image: url('../../images/kiosk/countries/bg/belarus.png'); }
+#doc .flag-bg-estonia { background-image: url('../../images/kiosk/countries/bg/estonia.png'); }
+#doc .flag-bg-china { background-image: url('../../images/kiosk/countries/bg/china.png'); }
+#doc .flag-bg-cyprus { background-image: url('../../images/kiosk/countries/bg/cyprus.png'); }
+#doc .flag-bg-northern { background-image: url('../../images/kiosk/countries/bg/northern.png'); }
+#doc .flag-bg-wales { background-image: url('../../images/kiosk/countries/bg/wales.png'); }
+#doc .flag-bg-malta { background-image: url('../../images/kiosk/countries/bg/malta.png'); }
+#doc .flag-bg-serbia { background-image: url('../../images/kiosk/countries/bg/serbia.png'); }
+#doc .flag-bg-bosnia { background-image: url('../../images/kiosk/countries/bg/bosnia.png'); }
+#doc .flag-bg-macedonia { background-image: url('../../images/kiosk/countries/bg/macedonia.png'); }
+#doc .flag-bg-lithuania { background-image: url('../../images/kiosk/countries/bg/lithuania.png'); }
+#doc .flag-bg-latvia { background-image: url('../../images/kiosk/countries/bg/latvia.png'); }
+#doc .flag-bg-ecuador { background-image: url('../../images/kiosk/countries/bg/ecuador.png'); }
+#doc .flag-bg-luxembourg { background-image: url('../../images/kiosk/countries/bg/luxembourg.png'); }
+#doc .flag-bg-faroe { background-image: url('../../images/kiosk/countries/bg/faroe.png'); }
+#doc .flag-bg-albania { background-image: url('../../images/kiosk/countries/bg/albania.png'); }
+#doc .flag-bg-georgia { background-image: url('../../images/kiosk/countries/bg/georgia.png'); }
+#doc .flag-bg-colombia { background-image: url('../../images/kiosk/countries/bg/colombia.png'); }
+#doc .flag-bg-kazakhstan { background-image: url('../../images/kiosk/countries/bg/kazakhstan.png'); }
+#doc .flag-bg-moldova { background-image: url('../../images/kiosk/countries/bg/moldova.png'); }
+#doc .flag-bg-paraguay { background-image: url('../../images/kiosk/countries/bg/paraguay.png'); }
+#doc .flag-bg-venezuela { background-image: url('../../images/kiosk/countries/bg/venezuela.png'); }
+#doc .flag-bg-costa { background-image: url('../../images/kiosk/countries/bg/costa.png'); }
+#doc .flag-bg-south { background-image: url('../../images/kiosk/countries/bg/south.png'); }
+#doc .flag-bg-armenia { background-image: url('../../images/kiosk/countries/bg/armenia.png'); }
+#doc .flag-bg-azerbaijan { background-image: url('../../images/kiosk/countries/bg/azerbaijan.png'); }
+#doc .flag-bg-iran { background-image: url('../../images/kiosk/countries/bg/iran.png'); }
+#doc .flag-bg-algeria { background-image: url('../../images/kiosk/countries/bg/algeria.png'); }
+#doc .flag-bg-saudi { background-image: url('../../images/kiosk/countries/bg/saudi.png'); }
+#doc .flag-bg-jordan { background-image: url('../../images/kiosk/countries/bg/jordan.png'); }
+#doc .flag-bg-hong { background-image: url('../../images/kiosk/countries/bg/hong.png'); }
+#doc .flag-bg-qatar { background-image: url('../../images/kiosk/countries/bg/qatar.png'); }
+#doc .flag-bg-guatemala { background-image: url('../../images/kiosk/countries/bg/guatemala.png'); }
+#doc .flag-bg-vietnam { background-image: url('../../images/kiosk/countries/bg/vietnam.png'); }
+#doc .flag-bg-el { background-image: url('../../images/kiosk/countries/bg/el.png'); }
+#doc .flag-bg-tunisia { background-image: url('../../images/kiosk/countries/bg/tunisia.png'); }
+#doc .flag-bg-bolivia { background-image: url('../../images/kiosk/countries/bg/bolivia.png'); }
+#doc .flag-bg-uzbekistan { background-image: url('../../images/kiosk/countries/bg/uzbekistan.png'); }
+#doc .flag-bg-montenegro { background-image: url('../../images/kiosk/countries/bg/montenegro.png'); }
+#doc .flag-bg-san { background-image: url('../../images/kiosk/countries/bg/san.png'); }
+#doc .flag-bg-canada { background-image: url('../../images/kiosk/countries/bg/canada.png'); }
+#doc .flag-bg-cameroon { background-image: url('../../images/kiosk/countries/bg/cameroon.png'); }
+#doc .flag-bg-honduras { background-image: url('../../images/kiosk/countries/bg/honduras.png'); }
+#doc .flag-bg-thailand { background-image: url('../../images/kiosk/countries/bg/thailand.png'); }
+#doc .flag-bg-pakistan { background-image: url('../../images/kiosk/countries/bg/pakistan.png'); }
+#doc .flag-bg-northern-ireland { background-image: url('../../images/kiosk/countries/bg/northern.png'); }
+
+#doc .flag-bg-germany-amateur { background-image: url('../../images/kiosk/countries/bg/germany.png'); }
+
+#doc .flag-bg-formula-1 { background-image: url('../../images/kiosk/countries/bg/formula_1.png'); }
+#doc .flag-bg-challenge { background-image: url('../../images/kiosk/countries/bg/atp_challenger.png'); }
+#doc .flag-bg-atp { background-image: url('../../images/kiosk/countries/bg/atp.png'); }
+
+#doc .flag-bg-worldcup {
+    background: url('../../images/kiosk/worldcup.png') center center no-repeat;
+}
+

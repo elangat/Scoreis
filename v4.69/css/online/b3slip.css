@@ -1,0 +1,454 @@
+#slip {
+    background-color: #faa21b;
+    background-color: #ffa930;
+    border-radius: 5px;
+    border: 1px solid #f35e0d;
+    position: relative;
+}
+
+#slip-wrapper{
+    position: relative;
+}
+#slip {
+    height: auto;
+    min-height: 150px;
+}
+#slip div.empty-slip {
+    height: 35px;
+    padding: 35px 25px 5px 25px;
+    text-align: center;
+}
+#slip:not(.empty) div.empty-slip {
+    display: none;
+}
+#slip.empty div.betting-slip {
+    display: none;
+}
+div.slip-position-region {
+    height: auto;
+    width: 100%;
+    z-index: 1000;
+}
+div.slip-content {
+    background-color: #ECAD19;
+    padding: 17px 6px 2px;
+}
+div.slip-content div.match-line {
+    background-color: #F3F3F3;
+    background-image: url("../../images/online/pw365/coupon_items_bg.png");
+    background-position: left top;
+    background-repeat: repeat-x;
+    border: 1px solid #B3B3B3;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 11px;
+    margin-bottom: 3px;
+    min-height: 33px;
+    overflow: hidden;
+    position: relative;
+}
+div.slip-content div.match-line div.match-name {
+    position: relative;
+}
+div.slip-content div.match-line div.match-info {
+    background-image: url("../../images/online/pw365/divCouponIcons.png");
+    background-position: left -42px;
+    cursor: help;
+    height: 15px;
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    width: 15px;
+}
+div.slip-content div.match-line div.code {
+    height: 16px;
+    left: 3px;
+    line-height: 16px;
+    position: absolute;
+    top: 0;
+}
+div.slip-content div.match-line div.header {
+    cursor: help;
+    font-size: 11px;
+    font-weight: bold;
+    height: 16px;
+    line-height: 16px;
+    overflow: hidden;
+    padding: 0 0 0 31px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 140px;
+}
+div.slip-content div.match-line div.banker {
+    position: absolute;
+    right: 18px;
+    top: 2px;
+}
+div.slip-content div.match-line div.banker a {
+    background-image: url("../../images/online/pw365/divCouponIcons.png");
+    background-position: center -12px;
+    background-repeat: no-repeat;
+    display: block;
+    height: 15px;
+    width: 15px;
+}
+div.slip-content div.bet-line div.banker a.banker-on {
+    background-position: center -27px;
+}
+#slip.no-bankers div.slip-content div.bet-line div.banker {
+    display: none;
+}
+div.slip-content div.bet-line {
+    position: relative;
+}
+div.slip-content div.bet-line a.del {
+    background-image: url("../../images/online/pw365/divCouponIcons.png");
+    background-position: left 0;
+    background-repeat: no-repeat;
+    display: block;
+    height: 12px;
+    left: 3px;
+    position: absolute;
+    top: 2px;
+    width: 12px;
+}
+div.slip-content div.bet-line div.label {
+    font-weight: bold;
+    min-height: 14px;
+    left: 18px;
+    overflow: hidden;
+    position: relative;
+    text-overflow: ellipsis;
+    top: 1px;
+    white-space: nowrap;
+    width: 137px;
+}
+div.slip-content div.bet-line div.label span.mark {
+    font-weight: normal;
+}
+div.slip-content div.bet-line div.odds {
+    position: absolute;
+    height: 16px;
+    width: 100px;
+    top: 0;
+    right: 0;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 16px;
+    padding-right: 3px;
+    text-align: right;
+    color: #000;
+}
+div.slip-content div.nomatches {
+    position: absolute;
+    top: 2px;
+    left: 10px;
+    color: #000000;
+    font-size: 10px;
+    font-weight: normal;
+    text-transform: none;
+    white-space: nowrap;
+}
+
+div.slip-content div.systems {
+    background-color: #F3F3F3;
+    background-image: url("../../images/online/pw365/coupon_items_bg.png");
+    background-position: left top;
+    background-repeat: repeat-x;
+    border: 1px solid #B3B3B3;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 11px;
+    margin-bottom: 3px;
+    min-height: 33px;
+    overflow: hidden;
+    position: relative;
+}
+div.slip-content div.systems div.system-head {
+    font-size: 13px;
+    line-height: 22px;
+    text-align: center;
+    font-weight: 700;
+}
+div.system-content {
+    padding: 0 12px 2px 12px;
+}
+div.system-content div.info-line {
+    border-bottom: 1px solid #151515;
+    clear: both;
+    height: 23px;
+    line-height: 22px;
+    position: relative;
+}
+div.system-content div.info-line div.label {
+    float: left;
+    font-weight: bold;
+    left: -2px;
+    position: relative;
+}
+div.system-content div.info-line div.value {
+    float: right;
+    font-size: 12px;
+    font-weight: bold;
+    position: relative;
+    right: -2px;
+    text-align: right;
+}
+div.system-content div.winnings {
+    border: 0 none;
+    color: #860404;
+    font-weight: bold;
+}
+div.system-content div.info-line input.amount,
+div.system-content div.info-line input.combine-amount{
+    background-image: url("../../images/online/pw365/images/textbox_bg.html");
+    background-position: center center;
+    background-repeat: repeat-x;
+    border: 1px solid #666666;
+    border-radius: 5px;
+    font-size: 11px;
+    height: 15px;
+    line-height: 15px;
+    padding: 0 5px;
+    width: 53px !important;
+    text-align: right;
+}
+
+div.slip-content div.slip-options {
+    padding: 2px 8px;
+    color: #fff;
+    font: 700 11px arial,​helvetica,​clean,​sans-serif;
+}
+div.slip-content div.slip-options label {
+    cursor: pointer;
+}
+div.slip-content div.slip-controls {
+    clear: both;
+    height: 25px;
+    padding: 15px 0 13px 0;
+}
+div.slip-content div.slip-controls a {
+    background-image: url("../../images/online/pw365/couponDivBtn_bg.png");
+    background-position: center bottom;
+    background-repeat: repeat-x;
+    border: 1px solid #E0A403;
+    border-radius: 5px;
+    color: #000000;
+    display: block;
+    font-family: BrandonGrotesque-Black,Tahoma,Arial;
+    font-size: 15px;
+    font-weight: normal;
+    height: 21px;
+    line-height: 23px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 106px;
+}
+div.slip-content div.slip-controls a.slip-cancel {
+    float: left;
+}
+div.slip-content div.slip-controls a.slip-submit {
+    float: right;
+    background-image: url("../../images/online/pw365/couponDivBtn_2.png");
+    border: 1px solid #5B9400;
+}
+div.slip-content div.slip-controls a:hover {
+    background-position: center top;
+    color: #222222;
+}
+div.slip-controls-busy {
+    position: relative;
+    height: 50px;
+    padding-top: 3px;
+}
+#slip:not(.busy) div.slip-controls-busy {
+    display: none;
+}
+#slip.busy div.slip-controls {
+    display: none;
+}
+div.slip-controls-busy div.loader {
+    position: relative;
+    height: 40px;
+    display: block;
+}
+div.slip-controls-busy div.loading-label {
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    width: 150px;
+    height: 50px;
+    font: 13px/40px Tahoma,arial;
+    text-align: left;
+    text-indent: 0;
+    color: #FF6700;
+}
+div.slip-controls-busy div.loader svg path,
+div.slip-controls-busy div.loader svg rect{
+  fill: #FF6700;
+}
+
+div.slip-content div.slip-error {
+    background-image: url("../../images/online/pw365/Errors.png");
+    background-color: #5C0F00;
+    background-position: 5px center;
+    background-repeat: no-repeat;
+    border: 1px solid #B60000;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 11px;
+    font-weight: bold;
+    margin: 0 0 3px;
+    padding: 10px 5px 10px 45px;
+    position: relative;
+    z-index: 100;
+}
+div.slip-content div.bets-placed {
+    background-image: url("../../images/online/pw365/betok.png");
+    background-color: #0b5c00;
+    background-position: 5px center;
+    background-repeat: no-repeat;
+    border: 1px solid #11b600;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 11px;
+    font-weight: bold;
+    margin: 0 0 3px;
+    padding: 10px 5px 10px 45px;
+    position: relative;
+    z-index: 100;
+    min-height: 20px;
+}
+div.slip-content div.bets-placed a {
+    color: #EBEBEB;
+    text-decoration: none;
+}
+div.slip-content div.system-head {
+    position: relative;
+    height: 23px;
+}
+div.slip-content div.tab-systems {
+    padding-top: 23px;
+}
+div.slip-content div.system-head div.slip-head-tab {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-image: url("../../images/online/pw365/CouponDiv_TipiSco_bg.png");
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    border-color: #888888 #888888 -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-width: 1px 1px 0;
+    border-bottom: 1px solid #888;
+    color: #7C6212;
+    font-size: 13px;
+    font-weight: bold;
+    height: 25px;
+    line-height: 22px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    width: 110px;
+    z-index: 1;
+    cursor: pointer;
+}
+div.slip-content div.system-head div.slip-head-tab-2 {
+    left: auto;
+    right: 0;
+}
+div.slip-content div.system-head div.tab-head-selected {
+    background-position: 0 -27px;
+    color: #141414;
+    z-index: 100;
+    border-bottom: 0;
+}
+div.slip-content div.system-content div.slip-tab {
+    display: none;
+}
+div.slip-content div.system-content div.tab-selected {
+    display: block;
+}
+div.slip-content div.system-combine-head {
+    font-size: 10px;
+    font-weight: bold;
+    height: 20px;
+    margin: 0;
+    border-bottom: 1px solid #151515;
+    position: relative;
+}
+div.slip-content div.system-combine-head span.type {
+    display: block;
+    height: 20px;
+    left: 20px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    width: 50px;
+}
+div.slip-content div.system-combine-head span.ncomb {
+    display: block;
+    height: 20px;
+    left: 70px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+    width: 30px;
+}
+div.slip-content div.system-combine-head span.amount {
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+div.system-content div.info-line a.playall {
+    background-image: url("../../images/online/pw365/coupon_selezionaTutti.gif");
+    background-position: left center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: block;
+    padding-left: 15px;
+    color: #000000;
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: none;
+}
+div.system-content div.info-line .system-select {
+    vertical-align: middle;
+}
+div.system-content div.info-line .comb-type {
+    font-weight: normal;
+}
+div.system-content div.info-line .n-lines {
+    display: block;
+    height: 20px;
+    left: 70px;
+    line-height: 20px;
+    position: absolute;
+    top: 2px;
+    width: 55px;
+    text-align: right;
+    font-weight: bold;
+}
+#slip-combine-nr-lines {
+    display: inline-block;
+    padding-right: 12px;
+}
+#slip:not(.confirm-placebet) .slip-controls a.slip-confirm {
+    display: none !important;
+}
+#slip.confirm-placebet .slip-controls a.slip-cancel,
+#slip.confirm-placebet .slip-controls a.slip-submit {
+    display: none !important;
+}

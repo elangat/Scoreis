@@ -1,0 +1,111 @@
+.title-orangepay {
+    font: bold 14px/25px Verdana;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.deposit-orangepay {
+    width: 70px
+}
+
+.withdraw-orangepay {
+    width: 70px
+}
+
+.country-orangepay {
+    width: 220px;
+    padding-left: 5px;
+    height: 20px;
+    border: 1px solid #474747;
+    border-radius: 10px;
+    color: #fff;
+    overflow: hidden;
+    background: #333 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFW…wuL+qyUwaSB9zD8WbeXvucv+PCJyZ+b3XxPG8hyLEAAwB9ZKXg6Lq8kwAAAABJRU5ErkJggg==) no-repeat 200px 50%;
+    vertical-align: middle;
+}
+
+.exp-month-orangepay {
+    width: 60px;
+    padding-left: 5px;
+    height: 20px;
+    border: 1px solid #474747;
+    border-radius: 10px;
+    color: #fff;
+    overflow: hidden;
+    background: #333 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFW…wuL+qyUwaSB9zD8WbeXvucv+PCJyZ+b3XxPG8hyLEAAwB9ZKXg6Lq8kwAAAABJRU5ErkJggg==) no-repeat 200px 50%;
+    vertical-align: middle;
+}
+    
+.exp-year-orangepay {
+    width: 70px;
+    padding-left: 5px;
+    height: 20px;
+    background-color: #363636;
+    border: 1px solid #474747;
+    border-radius: 10px;
+    color: #fff;
+    padding: 0 8px;
+}
+
+.paymentbutton-orangepay {
+    left: 160px;
+    background: #ff8806 linear-gradient(#edb63f, #ff8806);
+    color: #212121;
+    height: 30px;
+    width: 160px;
+    font: bold 16px/19px arial,helvetica,clean,sans-serif;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 1rem;
+}
+
+.secure-orangepay {
+    width: 40px;
+}
+
+.input-orangepayhundred {
+    padding-left: 5px;
+    width: 100%;
+    height: 20px;
+    background-color: #363636;
+    border: 1px solid #474747;
+    border-radius: 10px;
+    color: #fff;
+    padding: 0 8px;
+}
+
+.input-orangepay {
+    padding-left: 5px;
+    width: 85px;
+    height: 20px;
+    background-color: #363636;
+    border: 1px solid #474747;
+    border-radius: 10px;
+    color: #fff;
+    padding: 0 8px;
+}
+
+.inputemail-orangepay {
+    padding-left: 5px;
+    width: 320px;
+    height: 20px;
+    background-color: #363636;
+    border: 1px solid #474747;
+    border-radius: 10px;
+    color: #fff;
+    padding: 0 8px;
+}
+
+.button-orangepay {
+    left: 160px;
+    background: #ff8806 linear-gradient(#edb63f, #ff8806);
+    color: #212121;
+    height: 30px;
+    width: 160px;
+    font: bold 16px/19px arial,helvetica,clean,sans-serif;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 1rem;
+}
